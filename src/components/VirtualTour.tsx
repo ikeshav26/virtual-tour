@@ -1,5 +1,5 @@
-import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
-import { useNavigate, useSearchParams } from 'react-router-dom';
+import React, { useMemo, useEffect, useRef, useState } from 'react';
+import { useSearchParams } from 'react-router-dom';
 import { ReactPhotoSphereViewer } from 'react-photo-sphere-viewer';
 import { MarkersPlugin } from '@photo-sphere-viewer/markers-plugin';
 import '@photo-sphere-viewer/markers-plugin/index.css';
@@ -75,73 +75,67 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
 }) => {
   const [searchParams, setSearchParams] = useSearchParams();
   
-  // URL defines the source of truth for the current scene
+  // URL defines the source of truth for the target scene
   const urlSceneId = searchParams.get('sceneId') || DEFAULT_SCENE_ID;
   
-  // We keep a local state for the *target* scene during transition
-  const [activeSceneId, setActiveSceneId] = useState<string>(urlSceneId);
-  const [overlayPhase, setOverlayPhase] = useState<
-    'hidden' | 'fade-in' | 'visible' | 'fade-out'
-  >('hidden');
+  // We use local state to track what is *currently* displayed while transitioning
+  const [uiSceneId, setUiSceneId] = useState<string>(urlSceneId);
 
-  const overlayTimerRef   = useRef<ReturnType<typeof setTimeout> | null>(null);
   const viewerRef         = useRef<any>(null);
+  const markersPluginRef  = useRef<any>(null);
+  const isTransitioningRef = useRef(false);
 
-  const activeScene = useMemo(
-    () => tourData.find((s) => s.id === activeSceneId) ?? tourData[0],
-    [activeSceneId]
+  const uiScene = useMemo(
+    () => tourData.find((s) => s.id === uiSceneId) ?? tourData[0],
+    [uiSceneId]
   );
-
-  // Sync URL changes to local active scene
+  
+  // Run this effect when the URL changes (from Back button or our own push)
   useEffect(() => {
-    if (urlSceneId !== activeSceneId) {
-       // Only trigger fade-in if we aren't already transitioning
-       if (overlayPhase === 'hidden' || overlayPhase === 'fade-out') {
-           setOverlayPhase('fade-in');
-           if (overlayTimerRef.current) clearTimeout(overlayTimerRef.current);
-           overlayTimerRef.current = setTimeout(() => {
-               setOverlayPhase('visible');
-               setActiveSceneId(urlSceneId);
-           }, 300);
-       } else {
-           setActiveSceneId(urlSceneId);
-       }
+    if (urlSceneId !== uiSceneId && !isTransitioningRef.current && viewerRef.current) {
+      const targetScene = tourData.find((s) => s.id === urlSceneId);
+      if (targetScene) {
+        performTransition(targetScene);
+      }
     }
-  }, [urlSceneId, activeSceneId, overlayPhase]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [urlSceneId]);
 
-  // Click handler
+  const performTransition = (targetScene: typeof tourData[0]) => {
+    if (!viewerRef.current || !markersPluginRef.current || isTransitioningRef.current) return;
+    isTransitioningRef.current = true;
+
+    // Remove current markers right before transition for a cleaner visually
+    markersPluginRef.current.clearMarkers();
+
+    // Use PSV's native smooth crossfade. We provide a large transition value (e.g. 500ms) 
+    viewerRef.current.setPanorama(targetScene.url, { 
+      transition: 500, // 500ms crossfade
+      showLoader: false,
+      zoomTo: 50
+    }).then(() => {
+      // Transition done: update markers and local UI badge state
+      markersPluginRef.current.setMarkers(buildMarkers(targetScene) as any);
+      setUiSceneId(targetScene.id);
+      isTransitioningRef.current = false;
+    }).catch((e: any) => {
+      console.error("PSV transition failed:", e);
+      isTransitioningRef.current = false;
+    });
+  };
+
+  // Click handler triggered from PSV markers
   const handleHotspotClickRef = useRef<(sceneId: string) => void>(() => {});
   useEffect(() => {
     handleHotspotClickRef.current = (targetId: string) => {
-      if (!targetId || targetId === activeSceneId) return;
-      // Fade out to black before pushing URL to trigger remount/src change safely
-      setOverlayPhase('fade-in');
-      if (overlayTimerRef.current) clearTimeout(overlayTimerRef.current);
-      overlayTimerRef.current = setTimeout(() => {
-        setOverlayPhase('visible');
-        setSearchParams({ sceneId: targetId }, { replace: true });
-      }, 300);
+      if (!targetId || targetId === urlSceneId || isTransitioningRef.current) return;
+      // Push the new URL parameter. The useEffect above will catch the URL change and trigger `performTransition`
+      // This ensures back/forward browser buttons use the exact same logic as clicking markers.
+      setSearchParams({ sceneId: targetId }, { replace: true });
     };
   });
 
-  // When activeSceneId (and thus PSV src) has changed, wait a bit then fade out overlay
-  useEffect(() => {
-    if (overlayPhase === 'visible') {
-      if (overlayTimerRef.current) clearTimeout(overlayTimerRef.current);
-      // Wait for PSV to load the new src
-      overlayTimerRef.current = setTimeout(() => {
-        setOverlayPhase('fade-out');
-        overlayTimerRef.current = setTimeout(() => setOverlayPhase('hidden'), 500);
-      }, 400); // give PSV time to load the image
-    }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [activeSceneId]);
-
-  useEffect(() => () => {
-    if (overlayTimerRef.current) clearTimeout(overlayTimerRef.current);
-  }, []);
-
-  if (!activeScene) {
+  if (!uiScene) {
     return (
       <div className="flex items-center justify-center h-full w-full bg-slate-900 text-white">
         No Tour Data Found
@@ -149,12 +143,18 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
     );
   }
 
+  const [initialSceneUrl] = useState(() => tourData.find((s) => s.id === urlSceneId)?.url || tourData[0].url);
+
   return (
     <div className={`relative ${className} vt-root`}>
-      {/* ReactPhotoSphereViewer automatically reacts to src changes */}
+      {/* 
+        We freeze the src prop to the VERY FIRST scene it mounts with.
+        ReactPhotoSphereViewer wrapper internally monitors changes to `src` (prop). 
+        To avoid the wrapper automatically calling `setPanorama` and conflicting with our manual 
+        smooth transition call, we use `initialSceneUrl` which never changes.
+      */}
       <ReactPhotoSphereViewer
-        key={activeScene.id} // Full remount per scene is the safest way to avoid PSV plugin state bugs
-        src={activeScene.url}
+        src={initialSceneUrl}
         height="100%"
         width="100%"
         defaultYaw={0}
@@ -164,17 +164,20 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
         touchmoveTwoFingers={false}
         mousewheelCtrlKey={false}
         moveInertia={true}
-        moveSpeed={0.6}
+        moveSpeed={0.8}
         zoomSpeed={0}
         plugins={[
           [
             MarkersPlugin,
-            { markers: buildMarkers(activeScene) },
+            // Initial markers only. We manage updates manually.
+            { markers: buildMarkers(uiScene) },
           ],
         ]}
         onReady={(instance: any) => {
           viewerRef.current = instance;
           const markersPlugin = instance.getPlugin(MarkersPlugin);
+          markersPluginRef.current = markersPlugin;
+          
           if (markersPlugin) {
             markersPlugin.addEventListener('select-marker', (e: any) => {
               const targetSceneId =
@@ -185,11 +188,14 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
               }
             });
           }
+
+          // If URL changed before ready due to some weird race
+          if (urlSceneId !== uiSceneId && !isTransitioningRef.current) {
+            const targetScene = tourData.find((s) => s.id === urlSceneId);
+            if (targetScene) performTransition(targetScene);
+          }
         }}
       />
-
-      {/* Smooth scene-transition overlay */}
-      <div className={`vt-transition-overlay ${overlayPhase}`} aria-hidden="true" />
 
       {/* Floating scene badge */}
       <div className="absolute top-6 left-6 z-50 bg-black/60 backdrop-blur-md px-5 py-3 rounded-2xl flex items-center gap-3 border border-white/10 shadow-2xl pointer-events-none">
@@ -197,7 +203,7 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
           <span className="text-white font-bold text-xs">360</span>
         </div>
         <div>
-          <h3 className="text-white font-bold text-sm tracking-wide">{activeScene.title}</h3>
+          <h3 className="text-white font-bold text-sm tracking-wide">{uiScene.title}</h3>
           <p className="text-slate-400 text-[10px] uppercase font-black tracking-widest">
             Select nodes to navigate
           </p>
