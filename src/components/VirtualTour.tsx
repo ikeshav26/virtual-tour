@@ -1,7 +1,8 @@
 import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
-import { Pannellum } from 'pannellum-react';
-// import 'pannellum-react/lib/pannellum/css/pannellum.css';
-import './';
+import { ReactPhotoSphereViewer } from 'react-photo-sphere-viewer';
+import { MarkersPlugin } from '@photo-sphere-viewer/markers-plugin';
+import '@photo-sphere-viewer/markers-plugin/index.css';
+import './VirtualTour.css';
 import tourData from './tourData.json';
 
 export interface VirtualTourProps {
@@ -16,30 +17,15 @@ interface Coords {
   z: number;
 }
 
-// Exact geometric proof of Three.js SphereGeometry mapped to Pannellum:
-// Three.js puts U=0.5 (center of image) at +X. Pannellum places it at yaw=0.
+// Exact geometric proof of Three.js SphereGeometry mapped to Photo Sphere Viewer:
+// Three.js puts U=0.5 (center of image) at +X. PSV places it at yaw=0.
 // This directly maps to yaw = atan2(-z, x).
 function coordsToPitchYaw(sceneCoords: Coords) {
   const { x, y, z } = sceneCoords;
   const yaw = Math.atan2(-z, x) * (180 / Math.PI);
-  const distance = Math.sqrt(x * x + y * y + z * z);
   const pitch = Math.atan2(y, Math.sqrt(x * x + z * z)) * (180 / Math.PI);
+  const distance = Math.sqrt(x * x + y * y + z * z);
   return { pitch, yaw, distance };
-}
-
-function renderCustomTooltip(hotSpotDiv: HTMLElement, args: any) {
-  if (!hotSpotDiv.querySelector('.pnlm-tooltip')) {
-    const arrowImg = document.createElement('img');
-    arrowImg.src = '/virtual-tour/public/hotspot-icon-white-thumb.png';
-    arrowImg.className = 'simple-arrow-icon';
-    arrowImg.alt = 'navigate';
-    hotSpotDiv.appendChild(arrowImg);
-
-    const span = document.createElement('span');
-    span.innerHTML = args.text;
-    span.className = 'pnlm-tooltip';
-    hotSpotDiv.appendChild(span);
-  }
 }
 
 export const VirtualTour: React.FC<VirtualTourProps> = ({
@@ -54,6 +40,7 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
   );
   const overlayTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const pendingSceneRef = useRef<string | null>(null);
+  const viewerRef = useRef<any>(null);
 
   // Cleanup on unmount
   useEffect(() => {
@@ -93,39 +80,54 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
     [currentSceneId, onSceneChange, triggerTransition]
   );
 
-  const panRef = useRef<any>(null);
+  const handleViewerReady = useCallback(
+    (instance: any) => {
+      viewerRef.current = instance;
 
-  const handlePannellumLoad = useCallback(() => {
-    console.log(`Pannellum loaded scene`);
-
-    // Improve smoothness by increasing friction if viewer is accessible
-    if (panRef.current) {
-      const viewer = panRef.current.getViewer();
-      if (viewer && viewer.getConfig()) {
-        // Pannellum doesn't have a public setFriction, but we can try to nudge it
-        // and adjust other runtime settings for smoothness
-        const config = viewer.getConfig();
-        config.friction =2.5; // High friction = smoother, more controlled stop
-        config.touchPanSpeed = -100; // Reduce touch sensitivity
-      }
-    }
-
-    // Only fade out if we are currently showing the overlay due to a transition
-    if (overlayPhase === 'visible' || overlayPhase === 'fade-in') {
-      if (overlayTimerRef.current) clearTimeout(overlayTimerRef.current);
-      // Small delay so the scene is actually rendered before we reveal it
-      overlayTimerRef.current = setTimeout(() => {
-        setOverlayPhase('fade-out');
+      // Fade out the overlay once the scene is ready
+      if (overlayPhase === 'visible' || overlayPhase === 'fade-in') {
+        if (overlayTimerRef.current) clearTimeout(overlayTimerRef.current);
         overlayTimerRef.current = setTimeout(() => {
-          setOverlayPhase('hidden');
-        }, 500); // matches CSS fade-out duration
-      }, 80);
-    }
-  }, [overlayPhase]);
+          setOverlayPhase('fade-out');
+          overlayTimerRef.current = setTimeout(() => {
+            setOverlayPhase('hidden');
+          }, 500);
+        }, 80);
+      }
+    },
+    [overlayPhase]
+  );
 
   const currentScene = useMemo(() => {
     return tourData.find((s) => s.id === currentSceneId) || tourData[0];
   }, [currentSceneId]);
+
+  // Build PSV markers from hotspots
+  const markers = useMemo(() => {
+    if (!currentScene) return [];
+    return currentScene.hotspots
+      .filter((hotspot) => hotspot.targetSceneId && hotspot.targetSceneId !== currentScene.id)
+      .map((hotspot, idx) => {
+        const rawCoords = hotspot.coords?.plane || hotspot.coords?.scene;
+        if (!rawCoords) return null;
+
+        const { pitch, yaw } = coordsToPitchYaw(rawCoords);
+
+        return {
+          id: hotspot.id || `hs-${idx}`,
+          position: { yaw: `${yaw}deg`, pitch: `${pitch}deg` },
+          image: '/virtual-tour/public/hotspot-icon-white-thumb.png',
+          width: 70,
+          height: 70,
+          tooltip: {
+            content: hotspot.title,
+            position: 'top center',
+          },
+          data: { targetSceneId: hotspot.targetSceneId },
+        };
+      })
+      .filter(Boolean);
+  }, [currentScene]);
 
   if (!currentScene) {
     return (
@@ -137,49 +139,42 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
 
   return (
     <div className={`relative ${className} vt-root`}>
-      <Pannellum
+      <ReactPhotoSphereViewer
         key={currentScene.id}
-        ref={panRef}
-        width="100%"
+        ref={viewerRef}
+        src={currentScene.url}
         height="100%"
-        image={`/virtual-tour/${currentScene.url}`}
-        pitch={0}
-        yaw={0}
-        hfov={90}
-        autoLoad
-        crossOrigin="anonymous"
-        autoRotate={-1}
-        compass={false}
-        showZoomCtrl={false}
-        showFullscreenCtrl={false}
-        mouseZoom={false}
-        onLoad={handlePannellumLoad}
-      >
-        {currentScene.hotspots.map((hotspot, idx) => {
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          const AnyHotspot = Pannellum.Hotspot as any;
-          if (!hotspot.targetSceneId || hotspot.targetSceneId === currentScene.id) return null;
+        width="100%"
+        defaultYaw={0}
+        defaultPitch={0}
+        defaultZoomLvl={50}
+        navbar={false}
+        touchmoveTwoFingers={false}
+        mousewheelCtrlKey={false}
+        moveInertia={true}
+        moveSpeed={0.6}
+        zoomSpeed={0}
+        plugins={[
+          [
+            MarkersPlugin,
+            {
+              markers,
+            },
+          ],
+        ]}
+        onReady={(instance: any) => {
+          handleViewerReady(instance);
 
-          const rawCoords = hotspot.coords?.plane || hotspot.coords?.scene;
-          if (!rawCoords) return null;
-
-          const { pitch, yaw, distance } = coordsToPitchYaw(rawCoords);
-          const scale = Math.max(0.3, Math.min(1.2, 500 / distance));
-
-          return (
-            <AnyHotspot
-              key={hotspot.id || idx}
-              type="custom"
-              pitch={pitch}
-              yaw={yaw}
-              cssClass={hotspot.targetSceneId ? 'custom-arrow-hotspot' : 'custom-info-hotspot'}
-              tooltip={renderCustomTooltip}
-              tooltipArg={{ text: hotspot.title, scale, icon: hotspot.targetSceneId ? '↑' : 'i' }}
-              handleClick={() => handleHotspotClick(hotspot.targetSceneId)}
-            />
-          );
-        })}
-      </Pannellum>
+          // Wire up marker click → scene transition
+          const markersPlugin = instance.getPlugin(MarkersPlugin);
+          if (markersPlugin) {
+            markersPlugin.addEventListener('select-marker', (e: any) => {
+              const targetSceneId = e.marker?.data?.targetSceneId;
+              if (targetSceneId) handleHotspotClick(targetSceneId);
+            });
+          }
+        }}
+      />
 
       {/* Smooth scene-transition overlay — fades in to hide loading, then fades out */}
       <div className={`vt-transition-overlay ${overlayPhase}`} aria-hidden="true" />
