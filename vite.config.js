@@ -23,7 +23,10 @@ export default defineConfig({
       avif: {
         quality: 80,
       },
-      // You can add more configurations here for svgo, jpeg, etc.
     }),
   ],
+  server: {
+    host: '0.0.0.0',
+    allowedHosts: ["sister-assign-projectors-camel.trycloudflare.com"],
+  },
 });

@@ -1,7 +1,7 @@
 import React, { useState, useMemo, useEffect, useRef, useCallback } from 'react';
 import { Pannellum } from 'pannellum-react';
 // import 'pannellum-react/lib/pannellum/css/pannellum.css';
-import './VirtualTour.css';
+import './';
 import tourData from './tourData.json';
 
 export interface VirtualTourProps {
@@ -105,7 +105,7 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
         // Pannellum doesn't have a public setFriction, but we can try to nudge it
         // and adjust other runtime settings for smoothness
         const config = viewer.getConfig();
-        config.friction = 0.5; // High friction = smoother, more controlled stop
+        config.friction = 0.8; // High friction = smoother, more controlled stop
         config.touchPanSpeed = 0.6; // Reduce touch sensitivity
       }
     }
