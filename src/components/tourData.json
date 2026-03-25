@@ -2925,6 +2925,36 @@
         "title": "F- Block Midaway (Front)",
         "targetSceneId": "ZaOhIldQbZH",
         "coords": {
+          "plane": null,
+          "scene": {
+            "x": -741.1110064948475,
+            "y": -654.0218373088946,
+            "z": 4949.160070565939
+          }
+        }
+      },
+      {
+        "id": "a9oFR3BFw",
+        "title": "Ground Floor BFCET",
+        "targetSceneId": "0hyWw3t4u",
+        "coords": {
+          "plane": {
+            "x": 1174.1063825843564,
+            "y": -199.63,
+            "z": -46.739374084124094
+          },
+          "scene": {
+            "x": 4971.666970238005,
+            "y": -845.771144287032,
+            "z": -197.24297547182624
+          }
+        }
+      },
+      {
+        "id": "XVWwWct0E",
+        "title": "Way to BFCET",
+        "targetSceneId": "Fnqj68rvtw",
+        "coords": {
           "plane": {
             "x": 56.091118746997395,
             "y": -199.43999999999977,
@@ -2938,9 +2968,9 @@
         }
       },
       {
-        "id": "a9oFR3BFw",
-        "title": "Ground Floor BFCET",
-        "targetSceneId": "0hyWw3t4u",
+        "id": "LOuV_Nsmt",
+        "title": "Ground Floor - F Block",
+        "targetSceneId": "UH5BcyXsB",
         "coords": {
           "plane": {
             "x": -1128.747678571728,
@@ -2951,36 +2981,6 @@
             "x": -4957.141288100454,
             "y": -878.038163904862,
             "z": -366.6903961424182
-          }
-        }
-      },
-      {
-        "id": "XVWwWct0E",
-        "title": "Way to BFCET",
-        "targetSceneId": "Fnqj68rvtw",
-        "coords": {
-          "plane": null,
-          "scene": {
-            "x": -741.1110064948475,
-            "y": -654.0218373088946,
-            "z": 4949.160070565939
-          }
-        }
-      },
-      {
-        "id": "LOuV_Nsmt",
-        "title": "Ground Floor - F Block",
-        "targetSceneId": "UH5BcyXsB",
-        "coords": {
-          "plane": {
-            "x": 1174.1063825843564,
-            "y": -199.63,
-            "z": -46.739374084124094
-          },
-          "scene": {
-            "x": 4971.666970238005,
-            "y": -845.771144287032,
-            "z": -197.24297547182624
           }
         }
       }
