@@ -105,8 +105,8 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
         // Pannellum doesn't have a public setFriction, but we can try to nudge it
         // and adjust other runtime settings for smoothness
         const config = viewer.getConfig();
-        config.friction =1.7; // High friction = smoother, more controlled stop
-        config.touchPanSpeed = 0.1; // Reduce touch sensitivity
+        config.friction =2.5; // High friction = smoother, more controlled stop
+        config.touchPanSpeed = 0.05; // Reduce touch sensitivity
       }
     }
 
