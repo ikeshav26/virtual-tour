@@ -106,7 +106,7 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
         // and adjust other runtime settings for smoothness
         const config = viewer.getConfig();
         config.friction =2.5; // High friction = smoother, more controlled stop
-        config.touchPanSpeed = -1; // Reduce touch sensitivity
+        config.touchPanSpeed = -100; // Reduce touch sensitivity
       }
     }
 
