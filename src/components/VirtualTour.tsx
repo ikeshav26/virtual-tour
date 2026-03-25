@@ -70,7 +70,7 @@ function buildMarkers(scene: (typeof tourData)[number]) {
     .filter(Boolean);
 }
 
-const DEFAULT_SCENE_ID = tourData.length > 0 ? tourData[0].id : '';
+const DEFAULT_SCENE_ID =  "5Pd9XFNOX";
 
 export const VirtualTour: React.FC<VirtualTourProps> = ({
   className = 'w-full h-full',
