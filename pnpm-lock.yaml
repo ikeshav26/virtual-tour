@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@photo-sphere-viewer/autorotate-plugin':
+        specifier: ^5.14.1
+        version: 5.14.1(@photo-sphere-viewer/core@5.14.1)
       '@photo-sphere-viewer/core':
         specifier: ^5.14.1
         version: 5.14.1
@@ -389,6 +392,11 @@ packages:
 
   '@oxc-project/types@0.122.0':
     resolution: {integrity: sha512-oLAl5kBpV4w69UtFZ9xqcmTi+GENWOcPF7FCrczTiBbmC0ibXxCwyvZGbO39rCVEuLGAZM84DH0pUIyyv/YJzA==}
+
+  '@photo-sphere-viewer/autorotate-plugin@5.14.1':
+    resolution: {integrity: sha512-Iis0SCw6+qPfX9W4fQzGW5be7b4z7CnvEzT69irXQAqOF8Fl86mO9vOutwP4BUbXDSPOyi8yxn3q7wCyAYSrBw==}
+    peerDependencies:
+      '@photo-sphere-viewer/core': 5.14.1
 
   '@photo-sphere-viewer/core@5.14.1':
     resolution: {integrity: sha512-qrwUudrX9YZms4c2shlY/H3jUP0oh9FyGEqIDr/95ulNZgKbhQ6C/i8zDQ4j8ooFR4+z5FDORQtGvLgPyX8VCA==}
@@ -1652,6 +1660,10 @@ snapshots:
     optional: true
 
   '@oxc-project/types@0.122.0': {}
+
+  '@photo-sphere-viewer/autorotate-plugin@5.14.1(@photo-sphere-viewer/core@5.14.1)':
+    dependencies:
+      '@photo-sphere-viewer/core': 5.14.1
 
   '@photo-sphere-viewer/core@5.14.1':
     dependencies:

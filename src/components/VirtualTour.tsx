@@ -2,6 +2,7 @@ import React, { useMemo, useEffect, useRef, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { ReactPhotoSphereViewer } from 'react-photo-sphere-viewer';
 import { MarkersPlugin } from '@photo-sphere-viewer/markers-plugin';
+import { AutorotatePlugin } from '@photo-sphere-viewer/autorotate-plugin';
 import '@photo-sphere-viewer/markers-plugin/index.css';
 import './VirtualTour.css';
 import tourData from './tourData.json';
@@ -32,7 +33,7 @@ function getBestCoords(hotspot: any): Coords | null {
 }
 
 function hotspotHTML(title: string) {
-  return `<div class="vt-hotspot-marker" title="${title}">
+  return `<div class="vt-hotspot-marker" style="display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; cursor:pointer;" title="${title}">
     <img src="/virtual-tour/public/hotspot-icon-white-thumb.png"
          width="56" height="56"
          style="pointer-events:none;display:block;"
@@ -45,6 +46,7 @@ function hotspotHTML(title: string) {
         <circle cx="24" cy="34" r="3" fill="white" opacity="0.8"/>
       </svg>
     </div>
+    ${title ? `<div style="background:rgba(0,0,0,0.65); padding:4px 10px; border-radius:12px; border: 1px solid rgba(255,255,255,0.2); color:white; font-size:13px; font-weight:600; white-space:nowrap; pointer-events:none; text-shadow: 0 1px 2px rgba(0,0,0,0.8); backdrop-filter: blur(4px);">${title}</div>` : ''}
   </div>`;
 }
 
@@ -59,7 +61,7 @@ function buildMarkers(scene: (typeof tourData)[number]) {
         id: hs.id || `hs-${idx}`,
         position: { yaw: `${yaw}deg`, pitch: `${pitch}deg` },
         html: hotspotHTML(hs.title ?? ''),
-        size: { width: 64, height: 64 },
+        size: { width: 140, height: 100 }, // Increased size to properly fit the icon and text label underneath
         tooltip: { content: hs.title ?? '', position: 'top center' },
         data: { targetSceneId: hs.targetSceneId },
         anchor: 'center center',
@@ -167,6 +169,14 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
         moveSpeed={0.8}
         zoomSpeed={0}
         plugins={[
+          [
+            AutorotatePlugin,
+            { 
+              autostartDelay: 2500, // 2.5s delay before rotating rotates like pendulum
+              autorotateSpeed: '1.5rpm',
+              autorotatePitch: 0,
+            }
+          ],
           [
             MarkersPlugin,
             // Initial markers only. We manage updates manually.
