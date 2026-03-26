@@ -5730,36 +5730,36 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-marwgQr-P.jpg",
     "hotspots": [
       {
-        "id": "p3PVqBZjN",
-        "title": "F- Block Midaway (Front)",
+        "id": "hs_u6mwd4",
+        "title": "F-Block Midaway Front",
         "targetSceneId": "ZaOhIldQbZH",
         "coords": {
           "plane": {
-            "x": -45.62462948840328,
-            "y": -199.67999999999975,
-            "z": -977.0359366436825
+            "x": -462.38336898442486,
+            "y": -301.4974808773612,
+            "z": -1922.3165423808894
           },
           "scene": {
-            "x": -230.94453575616737,
-            "y": -1010.5802004993519,
-            "z": -4940.1405819510865
+            "x": -462.38336898442486,
+            "y": -301.4974808773612,
+            "z": -1922.3165423808894
           }
         }
       },
       {
-        "id": "zIHOMkCG8",
-        "title": "F block Back Gate ",
-        "targetSceneId": "FHjoHhtQE",
+        "id": "hs_79txea",
+        "title": "Ground Floor Corridor",
+        "targetSceneId": "bbnkujrrx",
         "coords": {
           "plane": {
-            "x": 92.53341481655859,
-            "y": -199.22000000000023,
-            "z": 960.7136779633033
+            "x": 497.90552714373734,
+            "y": -204.89600285621307,
+            "z": 1926.1639893979077
           },
           "scene": {
-            "x": 473.7125668445954,
-            "y": -1024.1224878403912,
-            "z": 4919.238755013697
+            "x": 497.90552714373734,
+            "y": -204.89600285621307,
+            "z": 1926.1639893979077
           }
         }
       }
@@ -5773,8 +5773,8 @@
     "hotspots": [
       {
         "id": "pr3yeDlmk",
-        "title": "F Block Entry",
-        "targetSceneId": "marwgQr-P",
+        "title": "F Block Corridor",
+        "targetSceneId": "bbnkujrrx",
         "coords": {
           "plane": {
             "x": 50.65489730655625,
@@ -7483,6 +7483,48 @@
             "x": -265.426703193399,
             "y": -930.7344971501589,
             "z": 1750.2234031821547
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "bbnkujrrx",
+    "title": "Ground Floor Corridor",
+    "url": "/virtual-tour/images/scene-bbnkujrrx.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-bbnkujrrx.jpg",
+    "hotspots": [
+      {
+        "id": "hs_x6cgl4",
+        "title": "F Block Entry",
+        "targetSceneId": "marwgQr-P",
+        "coords": {
+          "plane": {
+            "x": -1611.985471124227,
+            "y": -248.1821991612234,
+            "z": -1157.5441403695595
+          },
+          "scene": {
+            "x": -1611.985471124227,
+            "y": -248.1821991612234,
+            "z": -1157.5441403695595
+          }
+        }
+      },
+      {
+        "id": "hs_q3izrq",
+        "title": "F Block Back Gate",
+        "targetSceneId": "FHjoHhtQE",
+        "coords": {
+          "plane": {
+            "x": 1664.9254903409899,
+            "y": -175.60543366052016,
+            "z": 1094.1598801279981
+          },
+          "scene": {
+            "x": 1664.9254903409899,
+            "y": -175.60543366052016,
+            "z": 1094.1598801279981
           }
         }
       }
