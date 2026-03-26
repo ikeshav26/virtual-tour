@@ -6119,74 +6119,6 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-Zl9rcKR4a.jpg",
     "hotspots": [
       {
-        "id": "HuFSJE98d",
-        "title": "Electrical Shop (MP)",
-        "targetSceneId": "C07xrMyQO_",
-        "coords": {
-          "plane": {
-            "x": 425.81709049839435,
-            "y": -199.76000000000002,
-            "z": 166.8694484172479
-          },
-          "scene": {
-            "x": 4307.310042016093,
-            "y": -2022.1227184689387,
-            "z": 1687.039741697048
-          }
-        }
-      },
-      {
-        "id": "uUSni0uj0",
-        "title": "Work Shop Inner",
-        "targetSceneId": "ujLRXkV52",
-        "coords": {
-          "plane": {
-            "x": 872.3886332399865,
-            "y": -199.07,
-            "z": 76.01045913194307
-          },
-          "scene": {
-            "x": 4901.5204361255,
-            "y": -1124.2261595648663,
-            "z": 427.8838078060106
-          }
-        }
-      },
-      {
-        "id": "LNGMpYHxr",
-        "title": "Welding shop",
-        "targetSceneId": "J9Qpg8Yj4",
-        "coords": {
-          "plane": {
-            "x": -349.97355383764796,
-            "y": -199.13000000000002,
-            "z": 163.6439278535127
-          },
-          "scene": {
-            "x": -4064.926111578016,
-            "y": -2319.3883759664805,
-            "z": 1894.695281332279
-          }
-        }
-      },
-      {
-        "id": "TV-FOhMzD",
-        "title": "Lathe Machine Shop",
-        "targetSceneId": "4DdHS3125Ip",
-        "coords": {
-          "plane": {
-            "x": -1312.4400326398247,
-            "y": -199.05999999999997,
-            "z": -68.89546415190961
-          },
-          "scene": {
-            "x": -4983.912036621739,
-            "y": -758.9591019920988,
-            "z": -261.14419782564187
-          }
-        }
-      },
-      {
         "id": "hs_fc9oqq",
         "title": "Workshop Inner",
         "targetSceneId": "ujLRXkV52",
@@ -6200,6 +6132,57 @@
             "x": -720.7978262311556,
             "y": -295.0081351844281,
             "z": -1842.1239626788008
+          }
+        }
+      },
+      {
+        "id": "hs_5ajumf",
+        "title": "Welding Shop",
+        "targetSceneId": "J9Qpg8Yj4",
+        "coords": {
+          "plane": {
+            "x": 281.2904941115789,
+            "y": -763.8440156797062,
+            "z": -1826.8601417822779
+          },
+          "scene": {
+            "x": 281.2904941115789,
+            "y": -763.8440156797062,
+            "z": -1826.8601417822779
+          }
+        }
+      },
+      {
+        "id": "hs_evr9ae",
+        "title": "Lathe Machine Shop",
+        "targetSceneId": "4DdHS3125Ip",
+        "coords": {
+          "plane": {
+            "x": 722.1890722658757,
+            "y": -211.56458725002832,
+            "z": 1853.0200671664295
+          },
+          "scene": {
+            "x": 722.1890722658757,
+            "y": -211.56458725002832,
+            "z": 1853.0200671664295
+          }
+        }
+      },
+      {
+        "id": "hs_aptc3e",
+        "title": "Fitting Shop",
+        "targetSceneId": "kcpcsjcvg",
+        "coords": {
+          "plane": {
+            "x": -1615.8130927737284,
+            "y": -729.3369402880634,
+            "z": 925.8594260211671
+          },
+          "scene": {
+            "x": -1615.8130927737284,
+            "y": -729.3369402880634,
+            "z": 925.8594260211671
           }
         }
       }
@@ -6256,11 +6239,54 @@
     ]
   },
   {
+    "id": "kcpcsjcvg",
+    "title": "Fitting Shop",
+    "url": "/virtual-tour/images/scene-kcpcsjcvg.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-kcpcsjcvg.jpg",
+    "hotspots": [
+      {
+        "id": "hs_2wrctc",
+        "title": "Workshop Corridor",
+        "targetSceneId": "Zl9rcKR4a",
+        "coords": {
+          "plane": {
+            "x": -1615.6905528216987,
+            "y": -356.38666096990835,
+            "z": -1123.624752933751
+          },
+          "scene": {
+            "x": -1615.6905528216987,
+            "y": -356.38666096990835,
+            "z": -1123.624752933751
+          }
+        }
+      }
+    ]
+  },
+  {
     "id": "J9Qpg8Yj4",
     "title": "Welding shop",
     "url": "/virtual-tour/images/scene-J9Qpg8Yj4.jpg",
     "previewUrl": "/virtual-tour/images/scene-thumb-J9Qpg8Yj4.jpg",
-    "hotspots": []
+    "hotspots": [
+      {
+        "id": "hs_xjgxpx",
+        "title": "Workshop Corridor",
+        "targetSceneId": "Zl9rcKR4a",
+        "coords": {
+          "plane": {
+            "x": -1365.8226185684482,
+            "y": -671.8629732562829,
+            "z": -1297.354508133399
+          },
+          "scene": {
+            "x": -1365.8226185684482,
+            "y": -671.8629732562829,
+            "z": -1297.354508133399
+          }
+        }
+      }
+    ]
   },
   {
     "id": "6r2O3-mko",
@@ -6294,19 +6320,19 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-4DdHS3125Ip.jpg",
     "hotspots": [
       {
-        "id": "bkDqUd1qD",
-        "title": "WORKSHOP Corridor",
+        "id": "hs_p5lb48",
+        "title": "Workshop Corrdior",
         "targetSceneId": "Zl9rcKR4a",
         "coords": {
           "plane": {
-            "x": -454.20647369735207,
-            "y": -199.07000000000005,
-            "z": 223.9576323675197
+            "x": -398.0183230333121,
+            "y": -536.7534830138543,
+            "z": -1885.0668722892158
           },
           "scene": {
-            "x": -4210.390544532127,
-            "y": -1852.5335043438552,
-            "z": 2077.3717036347884
+            "x": -398.0183230333121,
+            "y": -536.7534830138543,
+            "z": -1885.0668722892158
           }
         }
       }
