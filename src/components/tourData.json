@@ -5645,7 +5645,7 @@
       {
         "id": "hs_o10781",
         "title": "Girls Hostel Midway",
-        "targetSceneId": "T2UcAkhP1",
+        "targetSceneId": "T2UcAkhP6",
         "coords": {
           "plane": {
             "x": 1495.691940887328,
@@ -5715,6 +5715,31 @@
             "x": 1861.8468010492065,
             "y": -351.45613323155095,
             "z": -640.3163872936276
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "hvfixrwod",
+    "title": "Carpantery Shop",
+    "url": "/virtual-tour/images/scene-hvfixrwod.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-hvfixrwod.jpg",
+    "hotspots": [
+      {
+        "id": "hs_u1zz3y",
+        "title": "Workshop Inner",
+        "targetSceneId": "ujLRXkV52",
+        "coords": {
+          "plane": {
+            "x": 521.7638882261122,
+            "y": -650.6194442209021,
+            "z": -1817.8164879175383
+          },
+          "scene": {
+            "x": 521.7638882261122,
+            "y": -650.6194442209021,
+            "z": -1817.8164879175383
           }
         }
       }
@@ -6001,57 +6026,6 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-ujLRXkV52.jpg",
     "hotspots": [
       {
-        "id": "1VlAEY9hK",
-        "title": "MP WORKSHOP ( FRONT VIEW )",
-        "targetSceneId": "2ZrYa9OBH",
-        "coords": {
-          "plane": {
-            "x": -473.3458610620389,
-            "y": -199.3,
-            "z": -7.167338987807168
-          },
-          "scene": {
-            "x": -4650.40060588824,
-            "y": -1962.2317020030252,
-            "z": -70.2824802150343
-          }
-        }
-      },
-      {
-        "id": "qUc6MIQm7",
-        "title": "Toyota Learning Shop",
-        "targetSceneId": "iie8v4vl-",
-        "coords": {
-          "plane": {
-            "x": 561.5656696652371,
-            "y": -199.57,
-            "z": 175.45305020496394
-          },
-          "scene": {
-            "x": 4562.331429706545,
-            "y": -1623.7521560338998,
-            "z": 1424.335091558824
-          }
-        }
-      },
-      {
-        "id": "e5_TjTkN5",
-        "title": "WORKSHOP Corridor",
-        "targetSceneId": "Zl9rcKR4a",
-        "coords": {
-          "plane": {
-            "x": 770.5884218522332,
-            "y": -199.66,
-            "z": 17.01799451971605
-          },
-          "scene": {
-            "x": 4883.889554409127,
-            "y": -1267.8783014138708,
-            "z": 106.90799034733408
-          }
-        }
-      },
-      {
         "id": "1bESmXwpf",
         "title": "Foundary shop",
         "targetSceneId": "6r2O3-mko",
@@ -6065,6 +6039,74 @@
             "x": 4864.850129563603,
             "y": -949.8955635263386,
             "z": 958.7064003838749
+          }
+        }
+      },
+      {
+        "id": "hs_1ftv3d",
+        "title": "Toyota Learning Shop",
+        "targetSceneId": "iie8v4vl-",
+        "coords": {
+          "plane": {
+            "x": -138.50673715331993,
+            "y": -782.1004380825964,
+            "z": 1835.5203045769208
+          },
+          "scene": {
+            "x": -138.50673715331993,
+            "y": -782.1004380825964,
+            "z": 1835.5203045769208
+          }
+        }
+      },
+      {
+        "id": "hs_lou02c",
+        "title": "Workshop Corridor",
+        "targetSceneId": "Zl9rcKR4a",
+        "coords": {
+          "plane": {
+            "x": 1231.2077381806112,
+            "y": -375.3069398616916,
+            "z": -1530.775034528535
+          },
+          "scene": {
+            "x": 1231.2077381806112,
+            "y": -375.3069398616916,
+            "z": -1530.775034528535
+          }
+        }
+      },
+      {
+        "id": "hs_mnksrz",
+        "title": "MP Workshop (front view)",
+        "targetSceneId": "ZrYa9OBH",
+        "coords": {
+          "plane": {
+            "x": -1224.8060325051342,
+            "y": -264.93313675215063,
+            "z": 1558.7368654746374
+          },
+          "scene": {
+            "x": -1224.8060325051342,
+            "y": -264.93313675215063,
+            "z": 1558.7368654746374
+          }
+        }
+      },
+      {
+        "id": "hs_h7g0qn",
+        "title": "Carpantery Shop",
+        "targetSceneId": "hvfixrwod",
+        "coords": {
+          "plane": {
+            "x": 605.1304658371159,
+            "y": -663.4371010863996,
+            "z": -1787.0837507564745
+          },
+          "scene": {
+            "x": 605.1304658371159,
+            "y": -663.4371010863996,
+            "z": -1787.0837507564745
           }
         }
       }
@@ -6143,6 +6185,23 @@
             "z": -261.14419782564187
           }
         }
+      },
+      {
+        "id": "hs_fc9oqq",
+        "title": "Workshop Inner",
+        "targetSceneId": "ujLRXkV52",
+        "coords": {
+          "plane": {
+            "x": -720.7978262311556,
+            "y": -295.0081351844281,
+            "z": -1842.1239626788008
+          },
+          "scene": {
+            "x": -720.7978262311556,
+            "y": -295.0081351844281,
+            "z": -1842.1239626788008
+          }
+        }
       }
     ]
   },
@@ -6153,19 +6212,19 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-iie8v4vl-.jpg",
     "hotspots": [
       {
-        "id": "vxKWKfYJH",
-        "title": "Work Shop Inner",
+        "id": "hs_w1qdd3",
+        "title": "Workshop Inner",
         "targetSceneId": "ujLRXkV52",
         "coords": {
           "plane": {
-            "x": -135.24409573397313,
-            "y": -199.8800000000001,
-            "z": 501.80937402705445
+            "x": -1184.3613427746552,
+            "y": -653.4596262002437,
+            "z": -1473.1865892232572
           },
           "scene": {
-            "x": -1224.6670190677232,
-            "y": -1812.961081037098,
-            "z": 4549.027061792756
+            "x": -1184.3613427746552,
+            "y": -653.4596262002437,
+            "z": -1473.1865892232572
           }
         }
       }
@@ -6210,19 +6269,19 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-6r2O3-mko.jpg",
     "hotspots": [
       {
-        "id": "lXJms0ptb",
-        "title": "Work Shop Inner",
+        "id": "hs_05ovl7",
+        "title": "Workshop Inner",
         "targetSceneId": "ujLRXkV52",
         "coords": {
           "plane": {
-            "x": -410.0950570797865,
-            "y": -199.37,
-            "z": 53.82657941624839
+            "x": 59.12849107304011,
+            "y": -559.6492038540621,
+            "z": 1919.1916501925855
           },
           "scene": {
-            "x": -4507.506933927126,
-            "y": -2195.577959704951,
-            "z": 590.7374706519342
+            "x": 59.12849107304011,
+            "y": -559.6492038540621,
+            "z": 1919.1916501925855
           }
         }
       }
