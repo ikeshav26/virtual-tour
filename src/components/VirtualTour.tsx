@@ -156,6 +156,17 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
     ) {
       const targetScene = tourData.find((s) => s.id === urlSceneId);
       if (targetScene) {
+        // Immediately cancel preloading of ANY images that are not the new target scene.
+        // This frees up the browser's network queue to download the target image ASAP.
+        const targetUrl = targetScene.url;
+        const cache = imageCacheRef.current;
+        for (const [url, img] of cache.entries()) {
+          if (url !== targetUrl) {
+            img.src = ""; // Setting src to empty aborts the pending request
+            cache.delete(url);
+          }
+        }
+
         performTransition(targetScene);
       }
     }
