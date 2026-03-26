@@ -1566,6 +1566,23 @@
             "z": 2141.002147971057
           }
         }
+      },
+      {
+        "id": "hs_mhm87m",
+        "title": "Block-I Front View",
+        "targetSceneId": "b57_ujvoR",
+        "coords": {
+          "plane": {
+            "x": 1739.9256672475915,
+            "y": -234.38043600559402,
+            "z": -957.9793753890797
+          },
+          "scene": {
+            "x": 1739.9256672475915,
+            "y": -234.38043600559402,
+            "z": -957.9793753890797
+          }
+        }
       }
     ]
   },
@@ -3120,6 +3137,48 @@
     ]
   },
   {
+    "id": "ssevaoksy",
+    "title": "Electrical Lab Center",
+    "url": "/virtual-tour/images/scene-ssevaoksy.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-ssevaoksy.jpg",
+    "hotspots": [
+      {
+        "id": "hs_76i26s",
+        "title": "Lab View-1",
+        "targetSceneId": "fVAK_ljUWsG",
+        "coords": {
+          "plane": {
+            "x": -1955.1567818891915,
+            "y": -144.659050819906,
+            "z": 395.51955356035694
+          },
+          "scene": {
+            "x": -1955.1567818891915,
+            "y": -144.659050819906,
+            "z": 395.51955356035694
+          }
+        }
+      },
+      {
+        "id": "hs_qrqsiw",
+        "title": "Ground Floor Right Corridor",
+        "targetSceneId": "qfVwDGTIuGG",
+        "coords": {
+          "plane": {
+            "x": -1558.4731225827668,
+            "y": -511.9106489315951,
+            "z": 1144.1630188472066
+          },
+          "scene": {
+            "x": -1558.4731225827668,
+            "y": -511.9106489315951,
+            "z": 1144.1630188472066
+          }
+        }
+      }
+    ]
+  },
+  {
     "id": "0hyWw3t4u",
     "title": "Ground Floor BFCET",
     "url": "/virtual-tour/images/scene-0hyWw3t4u.jpg",
@@ -3581,6 +3640,23 @@
             "x": 3353.153656517471,
             "y": -2043.383520558102,
             "z": 3173.207688609171
+          }
+        }
+      },
+      {
+        "id": "hs_ncnac9",
+        "title": "Lab Center",
+        "targetSceneId": "ssevaoksy",
+        "coords": {
+          "plane": {
+            "x": 896.3053047774351,
+            "y": -204.95097492607218,
+            "z": 1776.128345166723
+          },
+          "scene": {
+            "x": 896.3053047774351,
+            "y": -204.95097492607218,
+            "z": 1776.128345166723
           }
         }
       }
@@ -6208,7 +6284,7 @@
       {
         "id": "hs_mnksrz",
         "title": "MP Workshop (front view)",
-        "targetSceneId": "ZrYa9OBH",
+        "targetSceneId": "2ZrYa9OBH",
         "coords": {
           "plane": {
             "x": -1224.8060325051342,
