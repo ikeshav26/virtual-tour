@@ -1790,6 +1790,23 @@
             "z": -595.0435932085137
           }
         }
+      },
+      {
+        "id": "hs_htb0qv",
+        "title": "AICTE idea Lab",
+        "targetSceneId": "fdfvhpopb",
+        "coords": {
+          "plane": {
+            "x": 1372.7743781408433,
+            "y": -817.4390905435168,
+            "z": -1203.0311051553945
+          },
+          "scene": {
+            "x": 1372.7743781408433,
+            "y": -817.4390905435168,
+            "z": -1203.0311051553945
+          }
+        }
       }
     ]
   },
@@ -2007,100 +2024,104 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-EVHn5HBSq.jpg",
     "hotspots": [
       {
-        "id": "4HxByC4QJ",
-        "title": "Reading Hall, 1st Floor - I",
-        "targetSceneId": "jsuD9zEcIq6",
+        "id": "hs_dq7vt2",
+        "title": "SSD Dean Office-I",
+        "targetSceneId": "VmcgXfiUdme",
         "coords": {
           "plane": {
-            "x": 253.4728680596599,
-            "y": -199.16000000000003,
-            "z": 187.2032871834656
+            "x": 365.32359045041954,
+            "y": -656.5739420437213,
+            "z": 1853.4965154781335
           },
           "scene": {
-            "x": 3430.181753003802,
-            "y": -2701.5275427019014,
-            "z": 2533.9592302387177
+            "x": 365.32359045041954,
+            "y": -656.5739420437213,
+            "z": 1853.4965154781335
           }
         }
       },
       {
-        "id": "vqWIwy9-G",
+        "id": "hs_nr9onc",
+        "title": "Second Floor - BFSOE-I",
+        "targetSceneId": "IapTLSsqx",
+        "coords": {
+          "plane": {
+            "x": -1874.5971429532703,
+            "y": -602.3103013988847,
+            "z": 350.8672861071842
+          },
+          "scene": {
+            "x": -1874.5971429532703,
+            "y": -602.3103013988847,
+            "z": 350.8672861071842
+          }
+        }
+      },
+      {
+        "id": "hs_16xflp",
+        "title": "Ground Floor - I",
+        "targetSceneId": "teGSuYAXlLq",
+        "coords": {
+          "plane": {
+            "x": -1071.0109219904825,
+            "y": -1256.4655619066418,
+            "z": 1128.8179200915104
+          },
+          "scene": {
+            "x": -1071.0109219904825,
+            "y": -1256.4655619066418,
+            "z": 1128.8179200915104
+          }
+        }
+      },
+      {
+        "id": "hs_5485a3",
         "title": "Innovation Lab - I",
         "targetSceneId": "6Rbe0ZY00",
         "coords": {
           "plane": {
-            "x": 368.18294273679646,
-            "y": -199.33,
-            "z": -50.27111291405613
+            "x": -372.0558671406933,
+            "y": -1272.8919370578,
+            "z": -1497.1040539319329
           },
           "scene": {
-            "x": 4406.015015901767,
-            "y": -2389.795971765613,
-            "z": -598.9357347134694
+            "x": -372.0558671406933,
+            "y": -1272.8919370578,
+            "z": -1497.1040539319329
           }
         }
       },
       {
-        "id": "lB1AO9gIN",
-        "title": "SSD Dean Office  - I",
-        "targetSceneId": "VmcgXfiUdme",
+        "id": "hs_vz3ort",
+        "title": "AR/VR/MR Lab ",
+        "targetSceneId": "jsuD9zEcIq6",
         "coords": {
           "plane": {
-            "x": -321.79665898135283,
-            "y": -199.61999999999995,
-            "z": -65.66139127664935
+            "x": 1669.8861101261734,
+            "y": -551.509688099404,
+            "z": -952.5321218416606
           },
           "scene": {
-            "x": -4226.697923610931,
-            "y": -2621.602987531102,
-            "z": -865.3496259299947
+            "x": 1669.8861101261734,
+            "y": -551.509688099404,
+            "z": -952.5321218416606
           }
         }
       },
       {
-        "id": "gL8r3hsxu",
-        "title": "AI-ML Lab - 1st Floor (I)",
+        "id": "hs_3f674b",
+        "title": "AI/ML Lab Block-I",
         "targetSceneId": "Vuf9FVhlo",
         "coords": {
-          "plane": null,
-          "scene": {
-            "x": 3516.268805217688,
-            "y": -179.89610631043124,
-            "z": -3616.991979262661
-          }
-        }
-      },
-      {
-        "id": "xVTDtiFOm",
-        "title": "Ground Floor (I)",
-        "targetSceneId": "teGSuYAXlLq",
-        "coords": {
           "plane": {
-            "x": 100.9201640814752,
-            "y": -199.0399999999999,
-            "z": -245.25462945573332
+            "x": -1845.1910892651806,
+            "y": -598.4996187671233,
+            "z": -486.89634464841134
           },
           "scene": {
-            "x": 1539.6037111046999,
-            "y": -3037.8856973461498,
-            "z": -3725.8676429814864
-          }
-        }
-      },
-      {
-        "id": "iaBq982S0",
-        "title": "2nd Floor - BFSoE - I",
-        "targetSceneId": "IapTLSsqx",
-        "coords": {
-          "plane": {
-            "x": 279.7460765555745,
-            "y": -199.4899999999999,
-            "z": -360.71228985631586
-          },
-          "scene": {
-            "x": 2836.1165014990793,
-            "y": -2024.5986661286586,
-            "z": -3650.892722531572
+            "x": -1845.1910892651806,
+            "y": -598.4996187671233,
+            "z": -486.89634464841134
           }
         }
       }
@@ -2133,24 +2154,41 @@
   },
   {
     "id": "jsuD9zEcIq6",
-    "title": "Reading Hall, 1st Floor - I",
+    "title": "AR/VR/MR Lab",
     "url": "/virtual-tour/images/scene-jsuD9zEcIq6.jpg",
     "previewUrl": "/virtual-tour/images/scene-thumb-jsuD9zEcIq6.jpg",
     "hotspots": [
       {
-        "id": "YdeJkWlhW",
-        "title": "First Floor Upstairs - I Block",
+        "id": "hs_ozz50e",
+        "title": "First Floor Stairs - I",
         "targetSceneId": "EVHn5HBSq",
         "coords": {
           "plane": {
-            "x": -201.00982770356688,
-            "y": -199.75000000000026,
-            "z": 1121.7833197803307
+            "x": -1151.971340094602,
+            "y": -441.89203873708925,
+            "z": -1574.0690765342624
           },
           "scene": {
-            "x": -877.9605807779958,
-            "y": -872.1985553217507,
-            "z": 4893.597305783244
+            "x": -1151.971340094602,
+            "y": -441.89203873708925,
+            "z": -1574.0690765342624
+          }
+        }
+      },
+      {
+        "id": "hs_2snyv0",
+        "title": "Innovation Lab - I",
+        "targetSceneId": "6Rbe0ZY00",
+        "coords": {
+          "plane": {
+            "x": 1186.7546591538462,
+            "y": -581.8931191346832,
+            "z": -1501.0042561166667
+          },
+          "scene": {
+            "x": 1186.7546591538462,
+            "y": -581.8931191346832,
+            "z": -1501.0042561166667
           }
         }
       }
@@ -2163,36 +2201,36 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-Vuf9FVhlo.jpg",
     "hotspots": [
       {
-        "id": "_NiPWw94z",
-        "title": "Festo Lab Corridor",
-        "targetSceneId": "iNbqbMnLd",
+        "id": "hs_j9kayc",
+        "title": "First Floor Upstairs -I",
+        "targetSceneId": "EVHn5HBSq",
         "coords": {
           "plane": {
-            "x": 648.0448458232302,
-            "y": -199.60000000000005,
-            "z": 86.74151593533502
+            "x": 1554.737325124917,
+            "y": -303.3508299906278,
+            "z": 1220.9709758251481
           },
           "scene": {
-            "x": 4784.965226428188,
-            "y": -1475.9599490897992,
-            "z": 639.5915827586446
+            "x": 1554.737325124917,
+            "y": -303.3508299906278,
+            "z": 1220.9709758251481
           }
         }
       },
       {
-        "id": "CDCh1QlLm",
-        "title": "First Floor Upstairs - I Block",
-        "targetSceneId": "EVHn5HBSq",
+        "id": "hs_jbi4tn",
+        "title": "Festo Lab Corrdior",
+        "targetSceneId": "iNbqbMnLd",
         "coords": {
           "plane": {
-            "x": -462.57047607793106,
-            "y": -199.9900000000001,
-            "z": 369.7912051231929
+            "x": 426.5314180813184,
+            "y": -657.9662076279543,
+            "z": -1839.878098953631
           },
           "scene": {
-            "x": -3737.2674421861448,
-            "y": -1613.717792946375,
-            "z": 2984.1589351899283
+            "x": 426.5314180813184,
+            "y": -657.9662076279543,
+            "z": -1839.878098953631
           }
         }
       }
@@ -2205,36 +2243,70 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-6Rbe0ZY00.jpg",
     "hotspots": [
       {
-        "id": "GA2DgxOXf",
-        "title": "Festo Lab Corridor",
-        "targetSceneId": "iNbqbMnLd",
+        "id": "hs_dzev8z",
+        "title": "AR/VR/MR Lab",
+        "targetSceneId": "jsuD9zEcIq6",
         "coords": {
           "plane": {
-            "x": 420.51232427217235,
-            "y": -199.22999999999988,
-            "z": -415.8811268606793
+            "x": -1701.14256312182,
+            "y": -641.5356389079371,
+            "z": 833.3942668067191
           },
           "scene": {
-            "x": 3401.907910606287,
-            "y": -1617.6583527231417,
-            "z": -3358.9761640144143
+            "x": -1701.14256312182,
+            "y": -641.5356389079371,
+            "z": 833.3942668067191
           }
         }
       },
       {
-        "id": "hzHPve01z",
-        "title": "First Floor Upstairs - I Block",
+        "id": "hs_kveys3",
+        "title": "First Floor Upstairs - I",
         "targetSceneId": "EVHn5HBSq",
         "coords": {
           "plane": {
-            "x": -716.7153521664048,
-            "y": -199.25,
-            "z": 19.280579921393123
+            "x": -709.7949241169184,
+            "y": -550.3578613595691,
+            "z": -1786.979963552356
           },
           "scene": {
-            "x": -4860.111112597183,
-            "y": -1356.285562554453,
-            "z": 129.4661316311574
+            "x": -709.7949241169184,
+            "y": -550.3578613595691,
+            "z": -1786.979963552356
+          }
+        }
+      },
+      {
+        "id": "hs_v9rpp9",
+        "title": "Innovation Lab View-2",
+        "targetSceneId": "dyrgtcjso",
+        "coords": {
+          "plane": {
+            "x": -1127.724851657139,
+            "y": -283.2826184607068,
+            "z": 1627.263843706032
+          },
+          "scene": {
+            "x": -1127.724851657139,
+            "y": -283.2826184607068,
+            "z": 1627.263843706032
+          }
+        }
+      },
+      {
+        "id": "hs_ju5mhj",
+        "title": "Festo Lab Corridor",
+        "targetSceneId": "iNbqbMnLd",
+        "coords": {
+          "plane": {
+            "x": 1382.147513131453,
+            "y": -433.26947328027677,
+            "z": 1379.110516045749
+          },
+          "scene": {
+            "x": 1382.147513131453,
+            "y": -433.26947328027677,
+            "z": 1379.110516045749
           }
         }
       }
@@ -2247,87 +2319,87 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-iNbqbMnLd.jpg",
     "hotspots": [
       {
-        "id": "tHQJe4jiQ",
-        "title": "Industrial Automation - FESTO Lab",
-        "targetSceneId": "5vJPC5eSsAV",
-        "coords": {
-          "plane": {
-            "x": 98.15000191147169,
-            "y": -199.96999999999986,
-            "z": -694.1366713634328
-          },
-          "scene": {
-            "x": 678.5596235296645,
-            "y": -1384.0465059486244,
-            "z": -4807.008696561699
-          }
-        }
-      },
-      {
-        "id": "VSrGYgi8D",
-        "title": "IOT Lab, 1st Floor  - I",
-        "targetSceneId": "R0rTZPmVsU",
-        "coords": {
-          "plane": {
-            "x": -599.2011115233669,
-            "y": -199.84000000000003,
-            "z": 97.7232643182851
-          },
-          "scene": {
-            "x": -4731.818754135557,
-            "y": -1578.4552729263544,
-            "z": 771.5205721142416
-          }
-        }
-      },
-      {
-        "id": "NMepjX3yy",
+        "id": "hs_a5i2q9",
         "title": "Innovation Lab - I",
         "targetSceneId": "6Rbe0ZY00",
         "coords": {
           "plane": {
-            "x": 160.96859780967839,
-            "y": -199.06,
-            "z": 15.151436900416808
+            "x": -1640.7776005872138,
+            "y": -1122.5624950446759,
+            "z": 218.40858529448454
           },
           "scene": {
-            "x": 3163.772357705773,
-            "y": -3922.737496972711,
-            "z": 293.8927546001878
+            "x": -1640.7776005872138,
+            "y": -1122.5624950446759,
+            "z": 218.40858529448454
           }
         }
       },
       {
-        "id": "xUEYvEzxl",
-        "title": "AI-ML Lab - 1st Floor (I)",
+        "id": "hs_q6iz5m",
+        "title": "AI/ML Lab",
         "targetSceneId": "Vuf9FVhlo",
         "coords": {
           "plane": {
-            "x": -213.19996513330466,
-            "y": -199.88000000000002,
-            "z": 112.75523908522146
+            "x": 1106.8975939121358,
+            "y": -950.6409563904631,
+            "z": -1367.8667656700156
           },
           "scene": {
-            "x": -3439.0355670240024,
-            "y": -3219.669388748214,
-            "z": 1813.2628699134652
+            "x": 1106.8975939121358,
+            "y": -950.6409563904631,
+            "z": -1367.8667656700156
           }
         }
       },
       {
-        "id": "V-SJEranF",
-        "title": "First floor back stairs (I Block)",
+        "id": "hs_mpfjzy",
+        "title": "IoT Lab",
+        "targetSceneId": "R0rTZPmVsU",
+        "coords": {
+          "plane": {
+            "x": 1852.0172770822571,
+            "y": -622.2129888649537,
+            "z": -427.6482221131782
+          },
+          "scene": {
+            "x": 1852.0172770822571,
+            "y": -622.2129888649537,
+            "z": -427.6482221131782
+          }
+        }
+      },
+      {
+        "id": "hs_924n7u",
+        "title": "Festo Lab Corrdior",
+        "targetSceneId": "qsgcqpvdc",
+        "coords": {
+          "plane": {
+            "x": -30.47310605317944,
+            "y": -577.5438048167441,
+            "z": 1914.553353480981
+          },
+          "scene": {
+            "x": -30.47310605317944,
+            "y": -577.5438048167441,
+            "z": 1914.553353480981
+          }
+        }
+      },
+      {
+        "id": "hs_ofpzhi",
+        "title": "First Floor Backstairs - I",
         "targetSceneId": "IYPr8lBhA",
         "coords": {
           "plane": {
-            "x": -61.665492126753485,
-            "y": -199.20999999999975,
-            "z": -1189.3920095033145
+            "x": 150.2114845699306,
+            "y": -253.87416394533784,
+            "z": 1978.1264921092265
           },
           "scene": {
-            "x": -257.89792263077396,
-            "y": -835.1620869771166,
-            "z": -4971.655376365974
+            "x": 150.2114845699306,
+            "y": -253.87416394533784,
+            "z": 1978.1264921092265
           }
         }
       }
@@ -2340,19 +2412,36 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-5vJPC5eSsAV.jpg",
     "hotspots": [
       {
-        "id": "HSW7bvGxf",
+        "id": "hs_l43cim",
         "title": "Festo Lab Corridor",
-        "targetSceneId": "iNbqbMnLd",
+        "targetSceneId": "qsgcqpvdc",
         "coords": {
           "plane": {
-            "x": -307.04263755103227,
-            "y": -199.97999999999985,
-            "z": -595.0405918442668
+            "x": 1823.138753955934,
+            "y": -809.2889212942492,
+            "z": -145.65893619821423
           },
           "scene": {
-            "x": -2216.7299695324905,
-            "y": -1443.395220268736,
-            "z": -4298.069383865927
+            "x": 1823.138753955934,
+            "y": -809.2889212942492,
+            "z": -145.65893619821423
+          }
+        }
+      },
+      {
+        "id": "hs_tlctyk",
+        "title": "CSIR Lab",
+        "targetSceneId": "npitsbyvd",
+        "coords": {
+          "plane": {
+            "x": -1609.2347722016807,
+            "y": -591.040916204878,
+            "z": -1030.065086928347
+          },
+          "scene": {
+            "x": -1609.2347722016807,
+            "y": -591.040916204878,
+            "z": -1030.065086928347
           }
         }
       }
@@ -2365,19 +2454,19 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-R0rTZPmVsU.jpg",
     "hotspots": [
       {
-        "id": "ig6juYv_e",
+        "id": "hs_h1xgxp",
         "title": "Festo Lab Corridor",
         "targetSceneId": "iNbqbMnLd",
         "coords": {
           "plane": {
-            "x": -128.13184696995162,
-            "y": -199.17000000000004,
-            "z": 302.7250243373981
+            "x": -338.8185140531223,
+            "y": -483.92339622154077,
+            "z": 1910.764287169991
           },
           "scene": {
-            "x": -1684.4974467388695,
-            "y": -2620.301845213161,
-            "z": 3972.132925619583
+            "x": -338.8185140531223,
+            "y": -483.92339622154077,
+            "z": 1910.764287169991
           }
         }
       }
@@ -2846,7 +2935,7 @@
       {
         "id": "Aj0ZvpjlW",
         "title": "Festo Lab Corridor",
-        "targetSceneId": "iNbqbMnLd",
+        "targetSceneId": "qsgcqpvdc",
         "coords": {
           "plane": {
             "x": -9.27057458130543,
@@ -7525,6 +7614,275 @@
             "x": 1664.9254903409899,
             "y": -175.60543366052016,
             "z": 1094.1598801279981
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "fdfvhpopb",
+    "title": "AICTE idea Lab",
+    "url": "/virtual-tour/images/scene-fdfvhpopb.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-fdfvhpopb.jpg",
+    "hotspots": [
+      {
+        "id": "hs_jcqr3f",
+        "title": "Skill Lab Entry",
+        "targetSceneId": "344edb7d",
+        "coords": {
+          "plane": {
+            "x": -1315.5788235024063,
+            "y": -964.4733500110565,
+            "z": -1157.1704784820922
+          },
+          "scene": {
+            "x": -1315.5788235024063,
+            "y": -964.4733500110565,
+            "z": -1157.1704784820922
+          }
+        }
+      },
+      {
+        "id": "hs_yla0uw",
+        "title": "The Electric Automation Lab",
+        "targetSceneId": "cmnakozpc",
+        "coords": {
+          "plane": {
+            "x": 1419.2689478251525,
+            "y": -392.6677556636311,
+            "z": 1353.3246792257098
+          },
+          "scene": {
+            "x": 1419.2689478251525,
+            "y": -392.6677556636311,
+            "z": 1353.3246792257098
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cmnakozpc",
+    "title": "The Electric Automation Lab",
+    "url": "/virtual-tour/images/scene-cmnakozpc.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-cmnakozpc.jpg",
+    "hotspots": [
+      {
+        "id": "hs_89y12q",
+        "title": "AICTE idea Lab",
+        "targetSceneId": "fdfvhpopb",
+        "coords": {
+          "plane": {
+            "x": -1411.2410338523543,
+            "y": -699.25137094466,
+            "z": -1232.6582107800004
+          },
+          "scene": {
+            "x": -1411.2410338523543,
+            "y": -699.25137094466,
+            "z": -1232.6582107800004
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "dyrgtcjso",
+    "title": "Innovation Lab View-2",
+    "url": "/virtual-tour/images/scene-dyrgtcjso.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-dyrgtcjso.jpg",
+    "hotspots": [
+      {
+        "id": "hs_fj1l1p",
+        "title": "Cyber Physical Systems Lab",
+        "targetSceneId": "eljrjlgwl",
+        "coords": {
+          "plane": {
+            "x": 1930.4256236954143,
+            "y": -522.7716178984389,
+            "z": -12.91305153787
+          },
+          "scene": {
+            "x": 1930.4256236954143,
+            "y": -522.7716178984389,
+            "z": -12.91305153787
+          }
+        }
+      },
+      {
+        "id": "hs_389m38",
+        "title": "Innovation Lab View-1",
+        "targetSceneId": "6Rbe0ZY00",
+        "coords": {
+          "plane": {
+            "x": -855.807096225497,
+            "y": -326.4544465096231,
+            "z": 1777.926238178676
+          },
+          "scene": {
+            "x": -855.807096225497,
+            "y": -326.4544465096231,
+            "z": 1777.926238178676
+          }
+        }
+      },
+      {
+        "id": "hs_dzddv6",
+        "title": "Festo Lab Corridor",
+        "targetSceneId": "iNbqbMnLd",
+        "coords": {
+          "plane": {
+            "x": -1821.859121549509,
+            "y": -251.18905156027705,
+            "z": 785.9601781280655
+          },
+          "scene": {
+            "x": -1821.859121549509,
+            "y": -251.18905156027705,
+            "z": 785.9601781280655
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "eljrjlgwl",
+    "title": "Cyber Physical System Lab",
+    "url": "/virtual-tour/images/scene-eljrjlgwl.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-eljrjlgwl.jpg",
+    "hotspots": [
+      {
+        "id": "hs_pumt0p",
+        "title": "Innovation Lab",
+        "targetSceneId": "dyrgtcjso",
+        "coords": {
+          "plane": {
+            "x": 1005.1601970107387,
+            "y": -545.3538162687712,
+            "z": 1640.8053490363873
+          },
+          "scene": {
+            "x": 1005.1601970107387,
+            "y": -545.3538162687712,
+            "z": 1640.8053490363873
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "qsgcqpvdc",
+    "title": "Festo Lab Corridor",
+    "url": "/virtual-tour/images/scene-qsgcqpvdc.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-qsgcqpvdc.jpg",
+    "hotspots": [
+      {
+        "id": "hs_ocaxoi",
+        "title": "Festo Lab Corridor",
+        "targetSceneId": "iNbqbMnLd",
+        "coords": {
+          "plane": {
+            "x": -1062.957530553284,
+            "y": -578.6181899509161,
+            "z": 1592.2695370124964
+          },
+          "scene": {
+            "x": -1062.957530553284,
+            "y": -578.6181899509161,
+            "z": 1592.2695370124964
+          }
+        }
+      },
+      {
+        "id": "hs_cwugg2",
+        "title": "Industrial Automation - Festo Lab",
+        "targetSceneId": "5vJPC5eSsAV",
+        "coords": {
+          "plane": {
+            "x": 1328.2688844084123,
+            "y": -1229.2947919438639,
+            "z": 851.1968545595806
+          },
+          "scene": {
+            "x": 1328.2688844084123,
+            "y": -1229.2947919438639,
+            "z": 851.1968545595806
+          }
+        }
+      },
+      {
+        "id": "hs_nl4x0s",
+        "title": "First Floor Backstairs - I",
+        "targetSceneId": "IYPr8lBhA",
+        "coords": {
+          "plane": {
+            "x": 897.0592060632273,
+            "y": -1061.4469703033983,
+            "z": -1438.2680939417899
+          },
+          "scene": {
+            "x": 897.0592060632273,
+            "y": -1061.4469703033983,
+            "z": -1438.2680939417899
+          }
+        }
+      },
+      {
+        "id": "hs_5x759v",
+        "title": "innovation Lab - I",
+        "targetSceneId": "dyrgtcjso",
+        "coords": {
+          "plane": {
+            "x": -456.02205260705944,
+            "y": -855.4923265211324,
+            "z": 1749.3360931506284
+          },
+          "scene": {
+            "x": -456.02205260705944,
+            "y": -855.4923265211324,
+            "z": 1749.3360931506284
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "npitsbyvd",
+    "title": "CSIR Lab",
+    "url": "/virtual-tour/images/scene-npitsbyvd.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-npitsbyvd.jpg",
+    "hotspots": [
+      {
+        "id": "hs_64smuj",
+        "title": "Industrial Automation - Festo Lab",
+        "targetSceneId": "5vJPC5eSsAV",
+        "coords": {
+          "plane": {
+            "x": 1683.9285881625308,
+            "y": -932.9431739232397,
+            "z": -542.2190924331029
+          },
+          "scene": {
+            "x": 1683.9285881625308,
+            "y": -932.9431739232397,
+            "z": -542.2190924331029
+          }
+        }
+      },
+      {
+        "id": "hs_7qrxds",
+        "title": "Festo Lab Corridor",
+        "targetSceneId": "qsgcqpvdc",
+        "coords": {
+          "plane": {
+            "x": 1711.321390594447,
+            "y": -500.6825820135117,
+            "z": -905.9227616978015
+          },
+          "scene": {
+            "x": 1711.321390594447,
+            "y": -500.6825820135117,
+            "z": -905.9227616978015
           }
         }
       }
