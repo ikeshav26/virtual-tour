@@ -5851,6 +5851,57 @@
             "z": 1926.1639893979077
           }
         }
+      },
+      {
+        "id": "hs_atefto",
+        "title": "Applied Thermodynamics Lab",
+        "targetSceneId": "sivkylijr",
+        "coords": {
+          "plane": {
+            "x": 1561.4316422527384,
+            "y": -1186.945285668793,
+            "z": -391.2698754064049
+          },
+          "scene": {
+            "x": 1561.4316422527384,
+            "y": -1186.945285668793,
+            "z": -391.2698754064049
+          }
+        }
+      },
+      {
+        "id": "hs_31dc2q",
+        "title": "Refrigration and Air-Conditioning Lab",
+        "targetSceneId": "fpdqiuvkq",
+        "coords": {
+          "plane": {
+            "x": -1718.2059700853379,
+            "y": -866.7698954292714,
+            "z": -544.4981108696643
+          },
+          "scene": {
+            "x": -1718.2059700853379,
+            "y": -866.7698954292714,
+            "z": -544.4981108696643
+          }
+        }
+      },
+      {
+        "id": "hs_ltzf5y",
+        "title": "Heat Transfer & Metrology Lab",
+        "targetSceneId": "iecfnwebp",
+        "coords": {
+          "plane": {
+            "x": 1405.7290934191137,
+            "y": -763.4985000046254,
+            "z": 1200.4148268018698
+          },
+          "scene": {
+            "x": 1405.7290934191137,
+            "y": -763.4985000046254,
+            "z": 1200.4148268018698
+          }
+        }
       }
     ]
   },
@@ -5891,6 +5942,23 @@
             "x": -659.9144595364022,
             "y": -1374.4838834649477,
             "z": -4812.897304395624
+          }
+        }
+      },
+      {
+        "id": "hs_al4ig1",
+        "title": "First Floor Upstairs F-Block",
+        "targetSceneId": "ttxnaxzzr",
+        "coords": {
+          "plane": {
+            "x": 406.18805233924564,
+            "y": -390.7514280068812,
+            "z": -1918.9384012123558
+          },
+          "scene": {
+            "x": 406.18805233924564,
+            "y": -390.7514280068812,
+            "z": -1918.9384012123558
           }
         }
       }
@@ -6950,79 +7018,20 @@
           }
         }
       },
-      {
-        "id": "m8TctIVhH",
-        "title": "1st  Floor Outer (F)",
-        "targetSceneId": "MFEGq_1Nh",
+    {
+        "id": "hs_03z6ih",
+        "title": "First Floor Left Corridor",
+        "targetSceneId": "vfkcqasgz",
         "coords": {
           "plane": {
-            "x": 16.77263637991501,
-            "y": -199.9200000000001,
-            "z": 349.8270833092573
+            "x": 92.4207843159083,
+            "y": -535.8109260372805,
+            "z": 1924.6727124800996
           },
           "scene": {
-            "x": 210.37768693701008,
-            "y": -2500.271926915652,
-            "z": 4380.307298017354
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": "MFEGq_1Nh",
-    "title": "1st  Floor Outer (F)",
-    "url": "/virtual-tour/images/scene-MFEGq_1Nh.jpg",
-    "previewUrl": "/virtual-tour/images/scene-thumb-MFEGq_1Nh.jpg",
-    "hotspots": [
-      {
-        "id": "0oXrTfxbV",
-        "title": "LHF 104 - Lecture Hall (F)",
-        "targetSceneId": "MA8dIKHHtEr",
-        "coords": {
-          "plane": {
-            "x": 465.96189290780677,
-            "y": -199.27000000000007,
-            "z": 263.3880617323473
-          },
-          "scene": {
-            "x": 4116.42079429607,
-            "y": -1764.031697759437,
-            "z": 2329.9434865005096
-          }
-        }
-      },
-      {
-        "id": "RHGO8gAjd",
-        "title": "LHF 106 - Lecture Hall (F)",
-        "targetSceneId": "feqru6tgGQx",
-        "coords": {
-          "plane": {
-            "x": -242.18532831845488,
-            "y": -199.33999999999995,
-            "z": -278.8316868655219
-          },
-          "scene": {
-            "x": -2907.7694781260034,
-            "y": -2402.003728030207,
-            "z": -3354.1690970603377
-          }
-        }
-      },
-      {
-        "id": "duAHLZbAg",
-        "title": "1st Floor Upstairs - F Block",
-        "targetSceneId": "8Ua-_4VAY",
-        "coords": {
-          "plane": {
-            "x": 1366.3631276411338,
-            "y": -199.88,
-            "z": -17.62490454850123
-          },
-          "scene": {
-            "x": 4993.907319440379,
-            "y": -731.2016826287664,
-            "z": -65.25697111175488
+            "x": 92.4207843159083,
+            "y": -535.8109260372805,
+            "z": 1924.6727124800996
           }
         }
       }
@@ -7060,19 +7069,19 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-MA8dIKHHtEr.jpg",
     "hotspots": [
       {
-        "id": "OdX8uRZMc",
-        "title": "1st  Floor Outer (F)",
-        "targetSceneId": "MFEGq_1Nh",
+        "id": "hs_paui7a",
+        "title": "First Floor Corridor",
+        "targetSceneId": "vfkcqasgz",
         "coords": {
           "plane": {
-            "x": 570.3347612271392,
-            "y": -199.61000000000007,
-            "z": 306.95007085239666
+            "x": 1595.0512850720936,
+            "y": -547.8028222234494,
+            "z": 1075.0457971425624
           },
           "scene": {
-            "x": 4246.720038582427,
-            "y": -1488.18673992741,
-            "z": 2287.5949280926707
+            "x": 1595.0512850720936,
+            "y": -547.8028222234494,
+            "z": 1075.0457971425624
           }
         }
       }
@@ -7883,6 +7892,266 @@
             "x": 1711.321390594447,
             "y": -500.6825820135117,
             "z": -905.9227616978015
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sivkylijr",
+    "title": "Applied Thermodynamics Lab",
+    "url": "/virtual-tour/images/scene-sivkylijr.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-sivkylijr.jpg",
+    "hotspots": [
+      {
+        "id": "hs_90adl3",
+        "title": "Ground Floor Corridor",
+        "targetSceneId": "marwgQr-P",
+        "coords": {
+          "plane": {
+            "x": -1910.6642792288596,
+            "y": -440.1466634311403,
+            "z": -394.50339257007266
+          },
+          "scene": {
+            "x": -1910.6642792288596,
+            "y": -440.1466634311403,
+            "z": -394.50339257007266
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "fpdqiuvkq",
+    "title": "Refrigration and Air-Conditioning Lab",
+    "url": "/virtual-tour/images/scene-fpdqiuvkq.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-fpdqiuvkq.jpg",
+    "hotspots": [
+      {
+        "id": "hs_bipg0y",
+        "title": "Ground Floor Corridor",
+        "targetSceneId": "marwgQr-P",
+        "coords": {
+          "plane": {
+            "x": -1514.5124594237502,
+            "y": -473.84218004981847,
+            "z": -1217.261516131952
+          },
+          "scene": {
+            "x": -1514.5124594237502,
+            "y": -473.84218004981847,
+            "z": -1217.261516131952
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "iecfnwebp",
+    "title": "Heat Transfer & Metrology Lab",
+    "url": "/virtual-tour/images/scene-iecfnwebp.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-iecfnwebp.jpg",
+    "hotspots": [
+      {
+        "id": "hs_n72kfj",
+        "title": "Ground Floor Corridor",
+        "targetSceneId": "marwgQr-P",
+        "coords": {
+          "plane": {
+            "x": 1289.389901258697,
+            "y": -372.7026956812156,
+            "z": -1482.7563465263074
+          },
+          "scene": {
+            "x": 1289.389901258697,
+            "y": -372.7026956812156,
+            "z": -1482.7563465263074
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ttxnaxzzr",
+    "title": "First Floor Stairs F-Block",
+    "url": "/virtual-tour/images/scene-ttxnaxzzr.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-ttxnaxzzr.jpg",
+    "hotspots": [
+      {
+        "id": "hs_wy81g0",
+        "title": "Ultratech Lab",
+        "targetSceneId": "wucpaklcp",
+        "coords": {
+          "plane": {
+            "x": 1473.249323756108,
+            "y": -975.0448363934598,
+            "z": -937.4561307467254
+          },
+          "scene": {
+            "x": 1473.249323756108,
+            "y": -975.0448363934598,
+            "z": -937.4561307467254
+          }
+        }
+      },
+      {
+        "id": "hs_87ppzo",
+        "title": "Ground Floor Downstairs F-Block",
+        "targetSceneId": "FHjoHhtQE",
+        "coords": {
+          "plane": {
+            "x": -441.38301252408706,
+            "y": -610.0998419262413,
+            "z": -1852.8246595770297
+          },
+          "scene": {
+            "x": -441.38301252408706,
+            "y": -610.0998419262413,
+            "z": -1852.8246595770297
+          }
+        }
+      },
+      {
+        "id": "hs_pgdxyq",
+        "title": "First Floor Corridor",
+        "targetSceneId": "plyxzdyjg",
+        "coords": {
+          "plane": {
+            "x": 189.04199545694578,
+            "y": -295.4264789612502,
+            "z": 1969.0064295177438
+          },
+          "scene": {
+            "x": 189.04199545694578,
+            "y": -295.4264789612502,
+            "z": 1969.0064295177438
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "wucpaklcp",
+    "title": "Ultratech Lab",
+    "url": "/virtual-tour/images/scene-wucpaklcp.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-wucpaklcp.jpg",
+    "hotspots": [
+      {
+        "id": "hs_58qgzw",
+        "title": "First Floor Corridor",
+        "targetSceneId": "ttxnaxzzr",
+        "coords": {
+          "plane": {
+            "x": -809.6532766873972,
+            "y": -376.8065266867813,
+            "z": 1789.5469854115606
+          },
+          "scene": {
+            "x": -809.6532766873972,
+            "y": -376.8065266867813,
+            "z": 1789.5469854115606
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "plyxzdyjg",
+    "title": "First Floor Corrdior",
+    "url": "/virtual-tour/images/scene-plyxzdyjg.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-plyxzdyjg.jpg",
+    "hotspots": [
+      {
+        "id": "hs_iq2zwa",
+        "title": "First Floor Stairs",
+        "targetSceneId": "ttxnaxzzr",
+        "coords": {
+          "plane": {
+            "x": 13.970985314278838,
+            "y": -382.2408281690219,
+            "z": -1963.0834829038752
+          },
+          "scene": {
+            "x": 13.970985314278838,
+            "y": -382.2408281690219,
+            "z": -1963.0834829038752
+          }
+        }
+      },
+      {
+        "id": "hs_md9nqy",
+        "title": "First Floor Corridor ",
+        "targetSceneId": "vfkcqasgz",
+        "coords": {
+          "plane": {
+            "x": 0.8138319929623602,
+            "y": -298.76120145230374,
+            "z": 1977.5593751349827
+          },
+          "scene": {
+            "x": 0.8138319929623602,
+            "y": -298.76120145230374,
+            "z": 1977.5593751349827
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "vfkcqasgz",
+    "title": "First Floor Corrdior",
+    "url": "/virtual-tour/images/scene-vfkcqasgz.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-vfkcqasgz.jpg",
+    "hotspots": [
+      {
+        "id": "hs_uf1pyv",
+        "title": "First Floor Corridor",
+        "targetSceneId": "plyxzdyjg",
+        "coords": {
+          "plane": {
+            "x": -1196.12560802522,
+            "y": -278.90137117361616,
+            "z": 1578.4478309351166
+          },
+          "scene": {
+            "x": -1196.12560802522,
+            "y": -278.90137117361616,
+            "z": 1578.4478309351166
+          }
+        }
+      },
+      {
+        "id": "hs_z863bo",
+        "title": "Lecture Hall (104)",
+        "targetSceneId": "MA8dIKHHtEr",
+        "coords": {
+          "plane": {
+            "x": -781.987366438769,
+            "y": -1112.6343256453213,
+            "z": -1466.4721668432512
+          },
+          "scene": {
+            "x": -781.987366438769,
+            "y": -1112.6343256453213,
+            "z": -1466.4721668432512
+          }
+        }
+      },
+      {
+        "id": "hs_qnoy9q",
+        "title": "First Floor Stairs",
+        "targetSceneId": "8Ua-_4VAY",
+        "coords": {
+          "plane": {
+            "x": -1537.9130516288217,
+            "y": -271.2308434879159,
+            "z": -1249.5028111895383
+          },
+          "scene": {
+            "x": -1537.9130516288217,
+            "y": -271.2308434879159,
+            "z": -1249.5028111895383
           }
         }
       }
