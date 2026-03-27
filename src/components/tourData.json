@@ -5851,6 +5851,57 @@
             "z": 1926.1639893979077
           }
         }
+      },
+      {
+        "id": "hs_atefto",
+        "title": "Applied Thermodynamics Lab",
+        "targetSceneId": "sivkylijr",
+        "coords": {
+          "plane": {
+            "x": 1561.4316422527384,
+            "y": -1186.945285668793,
+            "z": -391.2698754064049
+          },
+          "scene": {
+            "x": 1561.4316422527384,
+            "y": -1186.945285668793,
+            "z": -391.2698754064049
+          }
+        }
+      },
+      {
+        "id": "hs_31dc2q",
+        "title": "Refrigration and Air-Conditioning Lab",
+        "targetSceneId": "fpdqiuvkq",
+        "coords": {
+          "plane": {
+            "x": -1718.2059700853379,
+            "y": -866.7698954292714,
+            "z": -544.4981108696643
+          },
+          "scene": {
+            "x": -1718.2059700853379,
+            "y": -866.7698954292714,
+            "z": -544.4981108696643
+          }
+        }
+      },
+      {
+        "id": "hs_ltzf5y",
+        "title": "Heat Transfer & Metrology Lab",
+        "targetSceneId": "iecfnwebp",
+        "coords": {
+          "plane": {
+            "x": 1405.7290934191137,
+            "y": -763.4985000046254,
+            "z": 1200.4148268018698
+          },
+          "scene": {
+            "x": 1405.7290934191137,
+            "y": -763.4985000046254,
+            "z": 1200.4148268018698
+          }
+        }
       }
     ]
   },
@@ -5891,6 +5942,23 @@
             "x": -659.9144595364022,
             "y": -1374.4838834649477,
             "z": -4812.897304395624
+          }
+        }
+      },
+      {
+        "id": "hs_al4ig1",
+        "title": "First Floor - F Block",
+        "targetSceneId": "ttxnaxzzr",
+        "coords": {
+          "plane": {
+            "x": 406.18805233924564,
+            "y": -390.7514280068812,
+            "z": -1918.9384012123558
+          },
+          "scene": {
+            "x": 406.18805233924564,
+            "y": -390.7514280068812,
+            "z": -1918.9384012123558
           }
         }
       }
@@ -7883,6 +7951,81 @@
             "x": 1711.321390594447,
             "y": -500.6825820135117,
             "z": -905.9227616978015
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sivkylijr",
+    "title": "Applied Thermodynamics Lab",
+    "url": "/virtual-tour/images/scene-sivkylijr.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-sivkylijr.jpg",
+    "hotspots": [
+      {
+        "id": "hs_90adl3",
+        "title": "Ground Floor Corridor",
+        "targetSceneId": "marwgQr-P",
+        "coords": {
+          "plane": {
+            "x": -1910.6642792288596,
+            "y": -440.1466634311403,
+            "z": -394.50339257007266
+          },
+          "scene": {
+            "x": -1910.6642792288596,
+            "y": -440.1466634311403,
+            "z": -394.50339257007266
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "fpdqiuvkq",
+    "title": "Refrigration and Air-Conditioning Lab",
+    "url": "/virtual-tour/images/scene-fpdqiuvkq.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-fpdqiuvkq.jpg",
+    "hotspots": [
+      {
+        "id": "hs_bipg0y",
+        "title": "Ground Floor Corridor",
+        "targetSceneId": "marwgQr-P",
+        "coords": {
+          "plane": {
+            "x": -1514.5124594237502,
+            "y": -473.84218004981847,
+            "z": -1217.261516131952
+          },
+          "scene": {
+            "x": -1514.5124594237502,
+            "y": -473.84218004981847,
+            "z": -1217.261516131952
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "iecfnwebp",
+    "title": "Heat Transfer & Metrology Lab",
+    "url": "/virtual-tour/images/scene-iecfnwebp.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-iecfnwebp.jpg",
+    "hotspots": [
+      {
+        "id": "hs_n72kfj",
+        "title": "Ground Floor Corridor",
+        "targetSceneId": "marwgQr-P",
+        "coords": {
+          "plane": {
+            "x": 1289.389901258697,
+            "y": -372.7026956812156,
+            "z": -1482.7563465263074
+          },
+          "scene": {
+            "x": 1289.389901258697,
+            "y": -372.7026956812156,
+            "z": -1482.7563465263074
           }
         }
       }
