@@ -1790,6 +1790,23 @@
             "z": -595.0435932085137
           }
         }
+      },
+      {
+        "id": "hs_htb0qv",
+        "title": "AICTE idea Lab",
+        "targetSceneId": "fdfvhpopb",
+        "coords": {
+          "plane": {
+            "x": 1372.7743781408433,
+            "y": -817.4390905435168,
+            "z": -1203.0311051553945
+          },
+          "scene": {
+            "x": 1372.7743781408433,
+            "y": -817.4390905435168,
+            "z": -1203.0311051553945
+          }
+        }
       }
     ]
   },
@@ -2007,57 +2024,6 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-EVHn5HBSq.jpg",
     "hotspots": [
       {
-        "id": "4HxByC4QJ",
-        "title": "Reading Hall, 1st Floor - I",
-        "targetSceneId": "jsuD9zEcIq6",
-        "coords": {
-          "plane": {
-            "x": 253.4728680596599,
-            "y": -199.16000000000003,
-            "z": 187.2032871834656
-          },
-          "scene": {
-            "x": 3430.181753003802,
-            "y": -2701.5275427019014,
-            "z": 2533.9592302387177
-          }
-        }
-      },
-      {
-        "id": "vqWIwy9-G",
-        "title": "Innovation Lab - I",
-        "targetSceneId": "6Rbe0ZY00",
-        "coords": {
-          "plane": {
-            "x": 368.18294273679646,
-            "y": -199.33,
-            "z": -50.27111291405613
-          },
-          "scene": {
-            "x": 4406.015015901767,
-            "y": -2389.795971765613,
-            "z": -598.9357347134694
-          }
-        }
-      },
-      {
-        "id": "lB1AO9gIN",
-        "title": "SSD Dean Office  - I",
-        "targetSceneId": "VmcgXfiUdme",
-        "coords": {
-          "plane": {
-            "x": -321.79665898135283,
-            "y": -199.61999999999995,
-            "z": -65.66139127664935
-          },
-          "scene": {
-            "x": -4226.697923610931,
-            "y": -2621.602987531102,
-            "z": -865.3496259299947
-          }
-        }
-      },
-      {
         "id": "gL8r3hsxu",
         "title": "AI-ML Lab - 1st Floor (I)",
         "targetSceneId": "Vuf9FVhlo",
@@ -2071,36 +2037,87 @@
         }
       },
       {
-        "id": "xVTDtiFOm",
-        "title": "Ground Floor (I)",
-        "targetSceneId": "teGSuYAXlLq",
+        "id": "hs_dq7vt2",
+        "title": "SSD Dean Office-I",
+        "targetSceneId": "VmcgXfiUdme",
         "coords": {
           "plane": {
-            "x": 100.9201640814752,
-            "y": -199.0399999999999,
-            "z": -245.25462945573332
+            "x": 365.32359045041954,
+            "y": -656.5739420437213,
+            "z": 1853.4965154781335
           },
           "scene": {
-            "x": 1539.6037111046999,
-            "y": -3037.8856973461498,
-            "z": -3725.8676429814864
+            "x": 365.32359045041954,
+            "y": -656.5739420437213,
+            "z": 1853.4965154781335
           }
         }
       },
       {
-        "id": "iaBq982S0",
-        "title": "2nd Floor - BFSoE - I",
+        "id": "hs_nr9onc",
+        "title": "Second Floor - BFSOE-I",
         "targetSceneId": "IapTLSsqx",
         "coords": {
           "plane": {
-            "x": 279.7460765555745,
-            "y": -199.4899999999999,
-            "z": -360.71228985631586
+            "x": -1874.5971429532703,
+            "y": -602.3103013988847,
+            "z": 350.8672861071842
           },
           "scene": {
-            "x": 2836.1165014990793,
-            "y": -2024.5986661286586,
-            "z": -3650.892722531572
+            "x": -1874.5971429532703,
+            "y": -602.3103013988847,
+            "z": 350.8672861071842
+          }
+        }
+      },
+      {
+        "id": "hs_16xflp",
+        "title": "Ground Floor - I",
+        "targetSceneId": "teGSuYAXlLq",
+        "coords": {
+          "plane": {
+            "x": -1071.0109219904825,
+            "y": -1256.4655619066418,
+            "z": 1128.8179200915104
+          },
+          "scene": {
+            "x": -1071.0109219904825,
+            "y": -1256.4655619066418,
+            "z": 1128.8179200915104
+          }
+        }
+      },
+      {
+        "id": "hs_5485a3",
+        "title": "Innovation Lab - I",
+        "targetSceneId": "6Rbe0ZY00",
+        "coords": {
+          "plane": {
+            "x": -372.0558671406933,
+            "y": -1272.8919370578,
+            "z": -1497.1040539319329
+          },
+          "scene": {
+            "x": -372.0558671406933,
+            "y": -1272.8919370578,
+            "z": -1497.1040539319329
+          }
+        }
+      },
+      {
+        "id": "hs_vz3ort",
+        "title": "AR/VR/MR Lab ",
+        "targetSceneId": "jsuD9zEcIq6",
+        "coords": {
+          "plane": {
+            "x": 1669.8861101261734,
+            "y": -551.509688099404,
+            "z": -952.5321218416606
+          },
+          "scene": {
+            "x": 1669.8861101261734,
+            "y": -551.509688099404,
+            "z": -952.5321218416606
           }
         }
       }
@@ -2133,24 +2150,41 @@
   },
   {
     "id": "jsuD9zEcIq6",
-    "title": "Reading Hall, 1st Floor - I",
+    "title": "AR/VR/MR Lab",
     "url": "/virtual-tour/images/scene-jsuD9zEcIq6.jpg",
     "previewUrl": "/virtual-tour/images/scene-thumb-jsuD9zEcIq6.jpg",
     "hotspots": [
       {
-        "id": "YdeJkWlhW",
-        "title": "First Floor Upstairs - I Block",
+        "id": "hs_ozz50e",
+        "title": "First Floor Stairs - I",
         "targetSceneId": "EVHn5HBSq",
         "coords": {
           "plane": {
-            "x": -201.00982770356688,
-            "y": -199.75000000000026,
-            "z": 1121.7833197803307
+            "x": -1151.971340094602,
+            "y": -441.89203873708925,
+            "z": -1574.0690765342624
           },
           "scene": {
-            "x": -877.9605807779958,
-            "y": -872.1985553217507,
-            "z": 4893.597305783244
+            "x": -1151.971340094602,
+            "y": -441.89203873708925,
+            "z": -1574.0690765342624
+          }
+        }
+      },
+      {
+        "id": "hs_2snyv0",
+        "title": "Innovation Lab - I",
+        "targetSceneId": "6Rbe0ZY00",
+        "coords": {
+          "plane": {
+            "x": 1186.7546591538462,
+            "y": -581.8931191346832,
+            "z": -1501.0042561166667
+          },
+          "scene": {
+            "x": 1186.7546591538462,
+            "y": -581.8931191346832,
+            "z": -1501.0042561166667
           }
         }
       }
@@ -7525,6 +7559,73 @@
             "x": 1664.9254903409899,
             "y": -175.60543366052016,
             "z": 1094.1598801279981
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "fdfvhpopb",
+    "title": "AICTE idea Lab",
+    "url": "/virtual-tour/images/scene-fdfvhpopb.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-fdfvhpopb.jpg",
+    "hotspots": [
+      {
+        "id": "hs_jcqr3f",
+        "title": "Skill Lab Entry",
+        "targetSceneId": "344edb7d",
+        "coords": {
+          "plane": {
+            "x": -1315.5788235024063,
+            "y": -964.4733500110565,
+            "z": -1157.1704784820922
+          },
+          "scene": {
+            "x": -1315.5788235024063,
+            "y": -964.4733500110565,
+            "z": -1157.1704784820922
+          }
+        }
+      },
+      {
+        "id": "hs_yla0uw",
+        "title": "The Electric Automation Lab",
+        "targetSceneId": "cmnakozpc",
+        "coords": {
+          "plane": {
+            "x": 1419.2689478251525,
+            "y": -392.6677556636311,
+            "z": 1353.3246792257098
+          },
+          "scene": {
+            "x": 1419.2689478251525,
+            "y": -392.6677556636311,
+            "z": 1353.3246792257098
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "cmnakozpc",
+    "title": "The Electric Automation Lab",
+    "url": "/virtual-tour/images/scene-cmnakozpc.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-cmnakozpc.jpg",
+    "hotspots": [
+      {
+        "id": "hs_89y12q",
+        "title": "AICTE idea Lab",
+        "targetSceneId": "fdfvhpopb",
+        "coords": {
+          "plane": {
+            "x": -1411.2410338523543,
+            "y": -699.25137094466,
+            "z": -1232.6582107800004
+          },
+          "scene": {
+            "x": -1411.2410338523543,
+            "y": -699.25137094466,
+            "z": -1232.6582107800004
           }
         }
       }
