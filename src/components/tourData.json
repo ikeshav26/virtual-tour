@@ -7018,79 +7018,20 @@
           }
         }
       },
-      {
-        "id": "m8TctIVhH",
-        "title": "1st  Floor Outer (F)",
-        "targetSceneId": "MFEGq_1Nh",
+    {
+        "id": "hs_03z6ih",
+        "title": "First Floor Left Corridor",
+        "targetSceneId": "vfkcqasgz",
         "coords": {
           "plane": {
-            "x": 16.77263637991501,
-            "y": -199.9200000000001,
-            "z": 349.8270833092573
+            "x": 92.4207843159083,
+            "y": -535.8109260372805,
+            "z": 1924.6727124800996
           },
           "scene": {
-            "x": 210.37768693701008,
-            "y": -2500.271926915652,
-            "z": 4380.307298017354
-          }
-        }
-      }
-    ]
-  },
-  {
-    "id": "MFEGq_1Nh",
-    "title": "1st  Floor Outer (F)",
-    "url": "/virtual-tour/images/scene-MFEGq_1Nh.jpg",
-    "previewUrl": "/virtual-tour/images/scene-thumb-MFEGq_1Nh.jpg",
-    "hotspots": [
-      {
-        "id": "0oXrTfxbV",
-        "title": "LHF 104 - Lecture Hall (F)",
-        "targetSceneId": "MA8dIKHHtEr",
-        "coords": {
-          "plane": {
-            "x": 465.96189290780677,
-            "y": -199.27000000000007,
-            "z": 263.3880617323473
-          },
-          "scene": {
-            "x": 4116.42079429607,
-            "y": -1764.031697759437,
-            "z": 2329.9434865005096
-          }
-        }
-      },
-      {
-        "id": "RHGO8gAjd",
-        "title": "LHF 106 - Lecture Hall (F)",
-        "targetSceneId": "feqru6tgGQx",
-        "coords": {
-          "plane": {
-            "x": -242.18532831845488,
-            "y": -199.33999999999995,
-            "z": -278.8316868655219
-          },
-          "scene": {
-            "x": -2907.7694781260034,
-            "y": -2402.003728030207,
-            "z": -3354.1690970603377
-          }
-        }
-      },
-      {
-        "id": "duAHLZbAg",
-        "title": "1st Floor Upstairs - F Block",
-        "targetSceneId": "8Ua-_4VAY",
-        "coords": {
-          "plane": {
-            "x": 1366.3631276411338,
-            "y": -199.88,
-            "z": -17.62490454850123
-          },
-          "scene": {
-            "x": 4993.907319440379,
-            "y": -731.2016826287664,
-            "z": -65.25697111175488
+            "x": 92.4207843159083,
+            "y": -535.8109260372805,
+            "z": 1924.6727124800996
           }
         }
       }
@@ -7128,19 +7069,19 @@
     "previewUrl": "/virtual-tour/images/scene-thumb-MA8dIKHHtEr.jpg",
     "hotspots": [
       {
-        "id": "OdX8uRZMc",
-        "title": "1st  Floor Outer (F)",
-        "targetSceneId": "MFEGq_1Nh",
+        "id": "hs_paui7a",
+        "title": "First Floor Corridor",
+        "targetSceneId": "vfkcqasgz",
         "coords": {
           "plane": {
-            "x": 570.3347612271392,
-            "y": -199.61000000000007,
-            "z": 306.95007085239666
+            "x": 1595.0512850720936,
+            "y": -547.8028222234494,
+            "z": 1075.0457971425624
           },
           "scene": {
-            "x": 4246.720038582427,
-            "y": -1488.18673992741,
-            "z": 2287.5949280926707
+            "x": 1595.0512850720936,
+            "y": -547.8028222234494,
+            "z": 1075.0457971425624
           }
         }
       }
@@ -8177,6 +8118,40 @@
             "x": -1196.12560802522,
             "y": -278.90137117361616,
             "z": 1578.4478309351166
+          }
+        }
+      },
+      {
+        "id": "hs_z863bo",
+        "title": "Lecture Hall (104)",
+        "targetSceneId": "MA8dIKHHtEr",
+        "coords": {
+          "plane": {
+            "x": -781.987366438769,
+            "y": -1112.6343256453213,
+            "z": -1466.4721668432512
+          },
+          "scene": {
+            "x": -781.987366438769,
+            "y": -1112.6343256453213,
+            "z": -1466.4721668432512
+          }
+        }
+      },
+      {
+        "id": "hs_qnoy9q",
+        "title": "First Floor Stairs",
+        "targetSceneId": "8Ua-_4VAY",
+        "coords": {
+          "plane": {
+            "x": -1537.9130516288217,
+            "y": -271.2308434879159,
+            "z": -1249.5028111895383
+          },
+          "scene": {
+            "x": -1537.9130516288217,
+            "y": -271.2308434879159,
+            "z": -1249.5028111895383
           }
         }
       }
