@@ -5947,7 +5947,7 @@
       },
       {
         "id": "hs_al4ig1",
-        "title": "First Floor - F Block",
+        "title": "First Floor Upstairs F-Block",
         "targetSceneId": "ttxnaxzzr",
         "coords": {
           "plane": {
@@ -8026,6 +8026,157 @@
             "x": 1289.389901258697,
             "y": -372.7026956812156,
             "z": -1482.7563465263074
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ttxnaxzzr",
+    "title": "First Floor Stairs F-Block",
+    "url": "/virtual-tour/images/scene-ttxnaxzzr.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-ttxnaxzzr.jpg",
+    "hotspots": [
+      {
+        "id": "hs_wy81g0",
+        "title": "Ultratech Lab",
+        "targetSceneId": "wucpaklcp",
+        "coords": {
+          "plane": {
+            "x": 1473.249323756108,
+            "y": -975.0448363934598,
+            "z": -937.4561307467254
+          },
+          "scene": {
+            "x": 1473.249323756108,
+            "y": -975.0448363934598,
+            "z": -937.4561307467254
+          }
+        }
+      },
+      {
+        "id": "hs_87ppzo",
+        "title": "Ground Floor Downstairs F-Block",
+        "targetSceneId": "FHjoHhtQE",
+        "coords": {
+          "plane": {
+            "x": -441.38301252408706,
+            "y": -610.0998419262413,
+            "z": -1852.8246595770297
+          },
+          "scene": {
+            "x": -441.38301252408706,
+            "y": -610.0998419262413,
+            "z": -1852.8246595770297
+          }
+        }
+      },
+      {
+        "id": "hs_pgdxyq",
+        "title": "First Floor Corridor",
+        "targetSceneId": "plyxzdyjg",
+        "coords": {
+          "plane": {
+            "x": 189.04199545694578,
+            "y": -295.4264789612502,
+            "z": 1969.0064295177438
+          },
+          "scene": {
+            "x": 189.04199545694578,
+            "y": -295.4264789612502,
+            "z": 1969.0064295177438
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "wucpaklcp",
+    "title": "Ultratech Lab",
+    "url": "/virtual-tour/images/scene-wucpaklcp.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-wucpaklcp.jpg",
+    "hotspots": [
+      {
+        "id": "hs_58qgzw",
+        "title": "First Floor Corridor",
+        "targetSceneId": "ttxnaxzzr",
+        "coords": {
+          "plane": {
+            "x": -809.6532766873972,
+            "y": -376.8065266867813,
+            "z": 1789.5469854115606
+          },
+          "scene": {
+            "x": -809.6532766873972,
+            "y": -376.8065266867813,
+            "z": 1789.5469854115606
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "plyxzdyjg",
+    "title": "First Floor Corrdior",
+    "url": "/virtual-tour/images/scene-plyxzdyjg.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-plyxzdyjg.jpg",
+    "hotspots": [
+      {
+        "id": "hs_iq2zwa",
+        "title": "First Floor Stairs",
+        "targetSceneId": "ttxnaxzzr",
+        "coords": {
+          "plane": {
+            "x": 13.970985314278838,
+            "y": -382.2408281690219,
+            "z": -1963.0834829038752
+          },
+          "scene": {
+            "x": 13.970985314278838,
+            "y": -382.2408281690219,
+            "z": -1963.0834829038752
+          }
+        }
+      },
+      {
+        "id": "hs_md9nqy",
+        "title": "First Floor Corridor ",
+        "targetSceneId": "vfkcqasgz",
+        "coords": {
+          "plane": {
+            "x": 0.8138319929623602,
+            "y": -298.76120145230374,
+            "z": 1977.5593751349827
+          },
+          "scene": {
+            "x": 0.8138319929623602,
+            "y": -298.76120145230374,
+            "z": 1977.5593751349827
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "vfkcqasgz",
+    "title": "First Floor Corrdior",
+    "url": "/virtual-tour/images/scene-vfkcqasgz.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-vfkcqasgz.jpg",
+    "hotspots": [
+      {
+        "id": "hs_uf1pyv",
+        "title": "First Floor Corridor",
+        "targetSceneId": "plyxzdyjg",
+        "coords": {
+          "plane": {
+            "x": -1196.12560802522,
+            "y": -278.90137117361616,
+            "z": 1578.4478309351166
+          },
+          "scene": {
+            "x": -1196.12560802522,
+            "y": -278.90137117361616,
+            "z": 1578.4478309351166
           }
         }
       }
