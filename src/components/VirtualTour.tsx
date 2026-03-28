@@ -188,7 +188,9 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
         </button>
       )} */}
 
-      <div className="absolute bottom-6 right-6 z-50 text-white px-4 py-2 font-[oswald] text-3xl">Managed By Keshav</div>
+      <div className="absolute bottom-6 left-6 z-50 text-white px-4 py-2 font-[oswald] text-3xl">
+        Managed By Keshav
+      </div>
 
       {modalData && (
         <div className="absolute inset-0 z-[100] flex items-center justify-center bg-black/50 backdrop-blur-sm">
