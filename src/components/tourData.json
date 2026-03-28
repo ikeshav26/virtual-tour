@@ -1422,6 +1422,23 @@
             "z": 5012.0832881069055
           }
         }
+      },
+      {
+        "id": "hs_qwc2d9",
+        "title": "H Block Front",
+        "targetSceneId": "UohmalxTf",
+        "coords": {
+          "plane": {
+            "x": 1788.4538994445934,
+            "y": 59.272350799960286,
+            "z": 893.2633642952541
+          },
+          "scene": {
+            "x": 1788.4538994445934,
+            "y": 59.272350799960286,
+            "z": 893.2633642952541
+          }
+        }
       }
     ]
   },
@@ -1734,7 +1751,7 @@
       },
       {
         "id": "hs_rwullf",
-        "title": "Skill Lab Entry",
+        "title": "Idea Lab Entry",
         "targetSceneId": "344edb7d",
         "coords": {
           "plane": {
@@ -1753,13 +1770,13 @@
   },
   {
     "id": "344edb7d",
-    "title": "Skill Lab Entry",
+    "title": "Idea Lab Entry",
     "url": "/virtual-tour/images/scene-344edb7d.jpg",
     "previewUrl": "/virtual-tour/images/scene-thumb-344edb7d.jpg",
     "hotspots": [
       {
         "id": "hs_83xj66",
-        "title": "Skill Lab 1",
+        "title": "Idea Lab 1",
         "targetSceneId": "5aaec5fcd686",
         "coords": {
           "plane": {
@@ -1793,7 +1810,7 @@
       },
       {
         "id": "hs_htb0qv",
-        "title": "AICTE idea Lab",
+        "title": "Idea Lab",
         "targetSceneId": "fdfvhpopb",
         "coords": {
           "plane": {
@@ -1812,13 +1829,13 @@
   },
   {
     "id": "5aaec5fcd686",
-    "title": "Skill Lab 1 (View 1)",
+    "title": "Idea Lab 1 (View 1)",
     "url": "/virtual-tour/images/scene-5aaec5fcd686.jpg",
     "previewUrl": "/virtual-tour/images/scene-thumb-5aaec5fcd686.jpg",
     "hotspots": [
       {
         "id": "hs_225dqp",
-        "title": "Skill Lab 1 (View 2)",
+        "title": "Idea Lab 1 (View 2)",
         "targetSceneId": "7c1f717ce26e",
         "coords": {
           "plane": {
@@ -1835,7 +1852,7 @@
       },
       {
         "id": "hs_xo86uo",
-        "title": "Skill Lab 1 (View 3)",
+        "title": "Idea Lab 1 (View 3)",
         "targetSceneId": "9c4cf471433f",
         "coords": {
           "plane": {
@@ -1852,7 +1869,7 @@
       },
       {
         "id": "hs_osbxic",
-        "title": "Skill Lab Entry",
+        "title": "Idea Lab Entry",
         "targetSceneId": "344edb7d",
         "coords": {
           "plane": {
@@ -1871,13 +1888,13 @@
   },
   {
     "id": "7c1f717ce26e",
-    "title": "Skill Lab 1 (View 2)",
+    "title": "Idea Lab 1 (View 2)",
     "url": "/virtual-tour/images/scene-7c1f717ce26e.jpg",
     "previewUrl": "/virtual-tour/images/scene-thumb-7c1f717ce26e.jpg",
     "hotspots": [
       {
         "id": "hs_6h54t0",
-        "title": "Skill Lab 1 (View 1)",
+        "title": "Idea Lab 1 (View 1)",
         "targetSceneId": "5aaec5fcd686",
         "coords": {
           "plane": {
@@ -1894,7 +1911,7 @@
       },
       {
         "id": "hs_ngkrka",
-        "title": "Skill Lab 1 (View 3)",
+        "title": "Idea Lab 1 (View 3)",
         "targetSceneId": "9c4cf471433f",
         "coords": {
           "plane": {
@@ -1913,13 +1930,13 @@
   },
   {
     "id": "9c4cf471433f",
-    "title": "Skill Lab 1 (View 3)",
+    "title": "Idea Lab 1 (View 3)",
     "url": "/virtual-tour/images/scene-9c4cf471433f.jpg",
     "previewUrl": "/virtual-tour/images/scene-thumb-9c4cf471433f.jpg",
     "hotspots": [
       {
         "id": "hs_c4x9kh",
-        "title": "Skill lab 1 (View 2)",
+        "title": "Idea Lab 1 (View 2)",
         "targetSceneId": "7c1f717ce26e",
         "coords": {
           "plane": {
@@ -1936,7 +1953,7 @@
       },
       {
         "id": "hs_y6w5ag",
-        "title": "Skil Lab 1 (View 1)",
+        "title": "Idea Lab 1 (View 1)",
         "targetSceneId": "5aaec5fcd686",
         "coords": {
           "plane": {
@@ -3118,23 +3135,6 @@
         }
       },
       {
-        "id": "WtkLuGMEC",
-        "title": "Shake Point Garden",
-        "targetSceneId": "JB6M-XMI1",
-        "coords": {
-          "plane": {
-            "x": -538.8716908728438,
-            "y": -199.3599999999999,
-            "z": -625.7709682155177
-          },
-          "scene": {
-            "x": -3201.9022430910545,
-            "y": -1188.5921559937315,
-            "z": -3716.864238073101
-          }
-        }
-      },
-      {
         "id": "hs_zlo615",
         "title": "Way To G-Block",
         "targetSceneId": "wkymnhdmu",
@@ -3148,6 +3148,40 @@
             "x": 1969.1153561565416,
             "y": -261.921341252296,
             "z": 232.3401066219399
+          }
+        }
+      },
+      {
+        "id": "hs_8gufsu",
+        "title": "Shake Point Garden",
+        "targetSceneId": "JB6M-XMI1",
+        "coords": {
+          "plane": {
+            "x": -1614.9693746437729,
+            "y": -154.54206766565247,
+            "z": 1169.6113321459934
+          },
+          "scene": {
+            "x": -1614.9693746437729,
+            "y": -154.54206766565247,
+            "z": 1169.6113321459934
+          }
+        }
+      },
+      {
+        "id": "hs_02uht5",
+        "title": "H Block Front",
+        "targetSceneId": "UohmalxTf",
+        "coords": {
+          "plane": {
+            "x": -1660.88015476159,
+            "y": -4.342637479529382,
+            "z": -1114.207455108266
+          },
+          "scene": {
+            "x": -1660.88015476159,
+            "y": -4.342637479529382,
+            "z": -1114.207455108266
           }
         }
       }
@@ -6833,6 +6867,57 @@
             "z": 2429.856626501424
           }
         }
+      },
+      {
+        "id": "hs_cs4mem",
+        "title": "Hotel Management Lab",
+        "targetSceneId": "903e026c",
+        "coords": {
+          "plane": {
+            "x": -1576.2451992111376,
+            "y": 91.08667445139491,
+            "z": -1227.6621235915145
+          },
+          "scene": {
+            "x": -1576.2451992111376,
+            "y": 91.08667445139491,
+            "z": -1227.6621235915145
+          }
+        }
+      },
+      {
+        "id": "hs_ch9dml",
+        "title": "fashion Design Lab",
+        "targetSceneId": "55fa5c2a",
+        "coords": {
+          "plane": {
+            "x": -1876.8389055490882,
+            "y": -15.16540019545727,
+            "z": 690.829742595245
+          },
+          "scene": {
+            "x": -1876.8389055490882,
+            "y": -15.16540019545727,
+            "z": 690.829742595245
+          }
+        }
+      },
+      {
+        "id": "hs_o9hs5a",
+        "title": "Way To BFCET",
+        "targetSceneId": "Fnqj68rvtw",
+        "coords": {
+          "plane": {
+            "x": 136.8492257249992,
+            "y": 22.164982460861914,
+            "z": -1995.189465432037
+          },
+          "scene": {
+            "x": 136.8492257249992,
+            "y": 22.164982460861914,
+            "z": -1995.189465432037
+          }
+        }
       }
     ]
   },
@@ -7018,7 +7103,7 @@
           }
         }
       },
-    {
+      {
         "id": "hs_03z6ih",
         "title": "First Floor Left Corridor",
         "targetSceneId": "vfkcqasgz",
@@ -7439,6 +7524,74 @@
             "z": -1504.8857864286367
           }
         }
+      },
+      {
+        "id": "hs_ffhymj",
+        "title": "Skill Lab-1 G-Block",
+        "targetSceneId": "327151e2",
+        "coords": {
+          "plane": {
+            "x": -1916.4119538406917,
+            "y": -372.2193419864383,
+            "z": 434.53191439488717
+          },
+          "scene": {
+            "x": -1916.4119538406917,
+            "y": -372.2193419864383,
+            "z": 434.53191439488717
+          }
+        }
+      },
+      {
+        "id": "hs_5ozfxz",
+        "title": "Skill Lab-2 G-Block",
+        "targetSceneId": "89c0c86e",
+        "coords": {
+          "plane": {
+            "x": -1737.9772075064027,
+            "y": -250.34650515354073,
+            "z": 957.4768161922535
+          },
+          "scene": {
+            "x": -1737.9772075064027,
+            "y": -250.34650515354073,
+            "z": 957.4768161922535
+          }
+        }
+      },
+      {
+        "id": "hs_yjlh4s",
+        "title": "Fine Arts Lab-1",
+        "targetSceneId": "037fb026",
+        "coords": {
+          "plane": {
+            "x": -1968.7361425455329,
+            "y": -350.65739558437076,
+            "z": 33.42741325502358
+          },
+          "scene": {
+            "x": -1968.7361425455329,
+            "y": -350.65739558437076,
+            "z": 33.42741325502358
+          }
+        }
+      },
+      {
+        "id": "hs_lsgx9p",
+        "title": "Fine Arts Lab-2",
+        "targetSceneId": "dc74788d",
+        "coords": {
+          "plane": {
+            "x": -1952.769858625233,
+            "y": -339.26243737542114,
+            "z": -267.56471708892497
+          },
+          "scene": {
+            "x": -1952.769858625233,
+            "y": -339.26243737542114,
+            "z": -267.56471708892497
+          }
+        }
       }
     ]
   },
@@ -7630,13 +7783,13 @@
   },
   {
     "id": "fdfvhpopb",
-    "title": "AICTE idea Lab",
+    "title": "Idea Lab",
     "url": "/virtual-tour/images/scene-fdfvhpopb.jpg",
     "previewUrl": "/virtual-tour/images/scene-thumb-fdfvhpopb.jpg",
     "hotspots": [
       {
         "id": "hs_jcqr3f",
-        "title": "Skill Lab Entry",
+        "title": "Idea Lab Entry",
         "targetSceneId": "344edb7d",
         "coords": {
           "plane": {
@@ -7653,7 +7806,7 @@
       },
       {
         "id": "hs_yla0uw",
-        "title": "The Electric Automation Lab",
+        "title": "The Automation Lab",
         "targetSceneId": "cmnakozpc",
         "coords": {
           "plane": {
@@ -7672,13 +7825,13 @@
   },
   {
     "id": "cmnakozpc",
-    "title": "The Electric Automation Lab",
+    "title": "The Automation Lab",
     "url": "/virtual-tour/images/scene-cmnakozpc.jpg",
     "previewUrl": "/virtual-tour/images/scene-thumb-cmnakozpc.jpg",
     "hotspots": [
       {
         "id": "hs_89y12q",
-        "title": "AICTE idea Lab",
+        "title": "Idea Lab",
         "targetSceneId": "fdfvhpopb",
         "coords": {
           "plane": {
@@ -8152,6 +8305,384 @@
             "x": -1537.9130516288217,
             "y": -271.2308434879159,
             "z": -1249.5028111895383
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "903e026c",
+    "title": "Hotel Management Lab",
+    "url": "/virtual-tour/images/scene-903e026c.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-903e026c.jpg",
+    "hotspots": [
+      {
+        "id": "hs_nhwgct",
+        "title": "Food Production & Cattering Lab",
+        "targetSceneId": "c5ec94dd",
+        "coords": {
+          "plane": {
+            "x": -1812.8031473296614,
+            "y": -462.07580834243834,
+            "z": 707.2698893466028
+          },
+          "scene": {
+            "x": -1812.8031473296614,
+            "y": -462.07580834243834,
+            "z": 707.2698893466028
+          }
+        }
+      },
+      {
+        "id": "hs_pdq2kw",
+        "title": "H Block Front",
+        "targetSceneId": "UohmalxTf",
+        "coords": {
+          "plane": {
+            "x": -1735.7574964107973,
+            "y": -337.4435850076066,
+            "z": 934.4933068732676
+          },
+          "scene": {
+            "x": -1735.7574964107973,
+            "y": -337.4435850076066,
+            "z": 934.4933068732676
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "c5ec94dd",
+    "title": "Food Production & Cattering Lab",
+    "url": "/virtual-tour/images/scene-c5ec94dd.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-c5ec94dd.jpg",
+    "hotspots": [
+      {
+        "id": "hs_viab5k",
+        "title": "Hotel Management Lab",
+        "targetSceneId": "903e026c",
+        "coords": {
+          "plane": {
+            "x": -236.57289282728186,
+            "y": -715.9077449555263,
+            "z": 1852.4333637386326
+          },
+          "scene": {
+            "x": -236.57289282728186,
+            "y": -715.9077449555263,
+            "z": 1852.4333637386326
+          }
+        }
+      },
+      {
+        "id": "hs_ke94pn",
+        "title": "H Block Front",
+        "targetSceneId": "UohmalxTf",
+        "coords": {
+          "plane": {
+            "x": 230.32262501203408,
+            "y": -661.924229059852,
+            "z": 1873.181198760837
+          },
+          "scene": {
+            "x": 230.32262501203408,
+            "y": -661.924229059852,
+            "z": 1873.181198760837
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "55fa5c2a",
+    "title": "Fashion Design Lab",
+    "url": "/virtual-tour/images/scene-55fa5c2a.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-55fa5c2a.jpg",
+    "hotspots": [
+      {
+        "id": "hs_m6lq35",
+        "title": "H Block Front",
+        "targetSceneId": "UohmalxTf",
+        "coords": {
+          "plane": {
+            "x": 156.77886512650622,
+            "y": -712.5441767999937,
+            "z": -1862.176464129558
+          },
+          "scene": {
+            "x": 156.77886512650622,
+            "y": -712.5441767999937,
+            "z": -1862.176464129558
+          }
+        }
+      },
+      {
+        "id": "hs_5tji4z",
+        "title": "Designing Lab",
+        "targetSceneId": "132ead08",
+        "coords": {
+          "plane": {
+            "x": -218.85021808570582,
+            "y": -680.1622416601131,
+            "z": -1868.0160350124752
+          },
+          "scene": {
+            "x": -218.85021808570582,
+            "y": -680.1622416601131,
+            "z": -1868.0160350124752
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "132ead08",
+    "title": "Designing Lab",
+    "url": "/virtual-tour/images/scene-132ead08.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-132ead08.jpg",
+    "hotspots": [
+      {
+        "id": "hs_1hyhkk",
+        "title": "Fashion Design Lab",
+        "targetSceneId": "55fa5c2a",
+        "coords": {
+          "plane": {
+            "x": 1805.5659738526108,
+            "y": -581.5975792180482,
+            "z": -633.7789598222546
+          },
+          "scene": {
+            "x": 1805.5659738526108,
+            "y": -581.5975792180482,
+            "z": -633.7789598222546
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "327151e2",
+    "title": "Skill Lab-1 G-Block",
+    "url": "/virtual-tour/images/scene-327151e2.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-327151e2.jpg",
+    "hotspots": [
+      {
+        "id": "hs_ptcwt6",
+        "title": "G-Block Entrance",
+        "targetSceneId": "wkymnhdmu",
+        "coords": {
+          "plane": {
+            "x": 1959.4971931493576,
+            "y": -265.420404358221,
+            "z": 299.8712373504811
+          },
+          "scene": {
+            "x": 1959.4971931493576,
+            "y": -265.420404358221,
+            "z": 299.8712373504811
+          }
+        }
+      },
+      {
+        "id": "hs_jhrv5f",
+        "title": "Skill Lab-1 ",
+        "targetSceneId": "10ab9ea7",
+        "coords": {
+          "plane": {
+            "x": 1885.4828161569462,
+            "y": -284.3436411804316,
+            "z": -603.409681474473
+          },
+          "scene": {
+            "x": 1885.4828161569462,
+            "y": -284.3436411804316,
+            "z": -603.409681474473
+          }
+        }
+      },
+      {
+        "id": "hs_mzxyt5",
+        "title": "Skill Lab-2",
+        "targetSceneId": "89c0c86e",
+        "coords": {
+          "plane": {
+            "x": -928.1795266393126,
+            "y": -655.7435613288815,
+            "z": 1645.7469878761249
+          },
+          "scene": {
+            "x": -928.1795266393126,
+            "y": -655.7435613288815,
+            "z": 1645.7469878761249
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "10ab9ea7",
+    "title": "Skill Lab-1 ",
+    "url": "/virtual-tour/images/scene-10ab9ea7.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-10ab9ea7.jpg",
+    "hotspots": [
+      {
+        "id": "hs_8tef75",
+        "title": "Skill Lab-1",
+        "targetSceneId": "327151e2",
+        "coords": {
+          "plane": {
+            "x": -1979.149936673408,
+            "y": -288.0325735111978,
+            "z": -1.6627573971192489
+          },
+          "scene": {
+            "x": -1979.149936673408,
+            "y": -288.0325735111978,
+            "z": -1.6627573971192489
+          }
+        }
+      },
+      {
+        "id": "hs_3qh786",
+        "title": "G-Block Entrance",
+        "targetSceneId": "wkymnhdmu",
+        "coords": {
+          "plane": {
+            "x": -168.41047148575933,
+            "y": -881.9309640151737,
+            "z": 1787.1305737984594
+          },
+          "scene": {
+            "x": -168.41047148575933,
+            "y": -881.9309640151737,
+            "z": 1787.1305737984594
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "89c0c86e",
+    "title": "Skill Lab-2 ",
+    "url": "/virtual-tour/images/scene-89c0c86e.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-89c0c86e.jpg",
+    "hotspots": [
+      {
+        "id": "hs_d4ihac",
+        "title": "G-Block Entrance",
+        "targetSceneId": "wkymnhdmu",
+        "coords": {
+          "plane": {
+            "x": -1764.407055945939,
+            "y": -378.4149689497797,
+            "z": -862.3629469097809
+          },
+          "scene": {
+            "x": -1764.407055945939,
+            "y": -378.4149689497797,
+            "z": -862.3629469097809
+          }
+        }
+      },
+      {
+        "id": "hs_i4il2l",
+        "title": "Skill Lab-1",
+        "targetSceneId": "327151e2",
+        "coords": {
+          "plane": {
+            "x": 1522.9388851233764,
+            "y": -567.780302456823,
+            "z": -1165.4538516480204
+          },
+          "scene": {
+            "x": 1522.9388851233764,
+            "y": -567.780302456823,
+            "z": -1165.4538516480204
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "dc74788d",
+    "title": "Fine Arts Lab-2 ",
+    "url": "/virtual-tour/images/scene-dc74788d.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-dc74788d.jpg",
+    "hotspots": [
+      {
+        "id": "hs_bhn4j3",
+        "title": "G Block Entrance",
+        "targetSceneId": "wkymnhdmu",
+        "coords": {
+          "plane": {
+            "x": -876.6227671260407,
+            "y": -427.14344193226816,
+            "z": 1746.1617920944605
+          },
+          "scene": {
+            "x": -876.6227671260407,
+            "y": -427.14344193226816,
+            "z": 1746.1617920944605
+          }
+        }
+      },
+      {
+        "id": "hs_8btcaf",
+        "title": "Fine Arts Lab-1",
+        "targetSceneId": "037fb026",
+        "coords": {
+          "plane": {
+            "x": -568.8200257089043,
+            "y": -444.34276698795406,
+            "z": 1865.2086434975608
+          },
+          "scene": {
+            "x": -568.8200257089043,
+            "y": -444.34276698795406,
+            "z": 1865.2086434975608
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "037fb026",
+    "title": "Fine Arts Lab-1 ",
+    "url": "/virtual-tour/images/scene-037fb026.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-037fb026.jpg",
+    "hotspots": [
+      {
+        "id": "hs_9bzdrw",
+        "title": "G-Block Entrance",
+        "targetSceneId": "wkymnhdmu",
+        "coords": {
+          "plane": {
+            "x": -1832.899133531287,
+            "y": -514.826484094352,
+            "z": 612.7270661357352
+          },
+          "scene": {
+            "x": -1832.899133531287,
+            "y": -514.826484094352,
+            "z": 612.7270661357352
+          }
+        }
+      },
+      {
+        "id": "hs_w8ykmx",
+        "title": "Fine Arts Lab-2",
+        "targetSceneId": "dc74788d",
+        "coords": {
+          "plane": {
+            "x": -1709.2813030475597,
+            "y": -582.7086839392055,
+            "z": 859.5394212680854
+          },
+          "scene": {
+            "x": -1709.2813030475597,
+            "y": -582.7086839392055,
+            "z": 859.5394212680854
           }
         }
       }
