@@ -176,7 +176,7 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
 
   return (
     <div className={`relative ${className} vt-root`}>
-      {true && (
+      {/* {true && (
         <button
           className="absolute top-6 right-6 z-50 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-xl shadow-lg border border-white/20 font-semibold"
           onClick={() => {
@@ -186,7 +186,9 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
         >
           {isEditMode ? "Disable Edit Mode" : "Enable Edit Mode"}
         </button>
-      )}
+      )} */}
+
+      <div className="absolute bottom-6 right-6 z-50 text-white px-4 py-2 font-[oswald] text-3xl">Managed By Keshav</div>
 
       {modalData && (
         <div className="absolute inset-0 z-[100] flex items-center justify-center bg-black/50 backdrop-blur-sm">
@@ -352,7 +354,7 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
         }}
       />
 
-      <div className="absolute top-6 left-6 z-50 bg-black/60 backdrop-blur-md px-5 py-3 rounded-2xl flex items-center gap-3 border border-white/10 shadow-2xl pointer-events-none">
+      {/* <div className="absolute top-6 left-6 z-50 bg-black/60 backdrop-blur-md px-5 py-3 rounded-2xl flex items-center gap-3 border border-white/10 shadow-2xl pointer-events-none">
         <div className="w-8 h-8 rounded-full bg-blue-500/20 flex items-center justify-center border border-blue-400">
           <span className="text-white font-bold text-xs">360</span>
         </div>
@@ -361,7 +363,7 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
             {uiScene.title}
           </h3>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
