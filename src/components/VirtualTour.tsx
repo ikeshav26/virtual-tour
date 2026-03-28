@@ -360,9 +360,6 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
           <h3 className="text-white font-bold text-sm tracking-wide">
             {uiScene.title}
           </h3>
-          <p className="text-slate-400 text-[10px] uppercase font-black tracking-widest">
-            Select nodes to navigate
-          </p>
         </div>
       </div>
     </div>
