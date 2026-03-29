@@ -62,7 +62,7 @@ function hotspotHTML(title: string) {
         <circle cx="24" cy="34" r="3" fill="white" opacity="0.8"/>
       </svg>
     </div>
-    ${title ? `<div style="background:rgba(0,0,0,0.65); padding:4px 10px; border-radius:12px; border: 1px solid rgba(255,255,255,0.2); color:white; font-size:13px; font-weight:600; white-space:nowrap; pointer-events:none; text-shadow: 0 1px 2px rgba(0,0,0,0.8); backdrop-filter: blur(4px);">${title}</div>` : ""}
+    ${title ? `<div style=" padding:4px 10px; border-radius:12px; color:white; font-size:13px; font-weight:600; white-space:nowrap; pointer-events:none; text-shadow: 0 1px 2px rgba(0,0,0,0.8); backdrop-filter: blur(4px);">${title}</div>` : ""}
   </div>`;
 }
 
