@@ -8786,6 +8786,620 @@
             "z": 1031.2495142247246
           }
         }
+      },
+      {
+        "id": "hs_k8z8a8",
+        "title": "First Floor Left Corridor",
+        "targetSceneId": "3329fa93",
+        "coords": {
+          "plane": {
+            "x": 1844.3440465948197,
+            "y": -358.8159388381411,
+            "z": 685.3073469808635
+          },
+          "scene": {
+            "x": 1844.3440465948197,
+            "y": -358.8159388381411,
+            "z": 685.3073469808635
+          }
+        }
+      },
+      {
+        "id": "hs_l8oaom",
+        "title": "Second Floor Upstairs",
+        "targetSceneId": "041754d9",
+        "coords": {
+          "plane": {
+            "x": 249.58629371437698,
+            "y": -315.30479231993894,
+            "z": -1959.1553205220866
+          },
+          "scene": {
+            "x": 249.58629371437698,
+            "y": -315.30479231993894,
+            "z": -1959.1553205220866
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "3329fa93",
+    "title": "First Floor Left Corridor",
+    "url": "/virtual-tour/images/scene-3329fa93.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-3329fa93.jpg",
+    "hotspots": [
+      {
+        "id": "hs_pbezwy",
+        "title": "Ground Floor",
+        "targetSceneId": "3747fa36",
+        "coords": {
+          "plane": {
+            "x": 1930.4338622366215,
+            "y": -464.7576832779242,
+            "z": 239.63597260081204
+          },
+          "scene": {
+            "x": 1930.4338622366215,
+            "y": -464.7576832779242,
+            "z": 239.63597260081204
+          }
+        }
+      },
+      {
+        "id": "hs_8hrxmw",
+        "title": "Hematoloy Lab",
+        "targetSceneId": "9467f3c9",
+        "coords": {
+          "plane": {
+            "x": 185.43805405165503,
+            "y": -1345.0392133600835,
+            "z": -1468.496592652916
+          },
+          "scene": {
+            "x": 185.43805405165503,
+            "y": -1345.0392133600835,
+            "z": -1468.496592652916
+          }
+        }
+      },
+      {
+        "id": "hs_vwuue1",
+        "title": "Human Anatomy And Physiology Lab",
+        "targetSceneId": "4cf89e21",
+        "coords": {
+          "plane": {
+            "x": -1054.5893821387358,
+            "y": -1132.163254052543,
+            "z": -1267.2993337224618
+          },
+          "scene": {
+            "x": -1054.5893821387358,
+            "y": -1132.163254052543,
+            "z": -1267.2993337224618
+          }
+        }
+      },
+      {
+        "id": "hs_54sqlb",
+        "title": "Molecular Biochemistry Lab",
+        "targetSceneId": "bd45021c",
+        "coords": {
+          "plane": {
+            "x": 149.78022766504458,
+            "y": -1154.228260543739,
+            "z": 1626.4448979177814
+          },
+          "scene": {
+            "x": 149.78022766504458,
+            "y": -1154.228260543739,
+            "z": 1626.4448979177814
+          }
+        }
+      },
+      {
+        "id": "hs_2m6dhq",
+        "title": "BioTechnology lab",
+        "targetSceneId": "bc33fced",
+        "coords": {
+          "plane": {
+            "x": -995.9220285720797,
+            "y": -1051.5107838123977,
+            "z": 1379.2985117555627
+          },
+          "scene": {
+            "x": -995.9220285720797,
+            "y": -1051.5107838123977,
+            "z": 1379.2985117555627
+          }
+        }
+      },
+      {
+        "id": "hs_qb0dac",
+        "title": "Second Floor Upstairs",
+        "targetSceneId": "041754d9",
+        "coords": {
+          "plane": {
+            "x": 1960.21381015258,
+            "y": -311.4637865970839,
+            "z": -246.07342019346905
+          },
+          "scene": {
+            "x": 1960.21381015258,
+            "y": -311.4637865970839,
+            "z": -246.07342019346905
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "9467f3c9",
+    "title": "Hematoloy Lab",
+    "url": "/virtual-tour/images/scene-9467f3c9.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-9467f3c9.jpg",
+    "hotspots": [
+      {
+        "id": "hs_zg9ejj",
+        "title": "First Floor Left Corridor",
+        "targetSceneId": "3329fa93",
+        "coords": {
+          "plane": {
+            "x": 1765.7968732913826,
+            "y": -711.1005954475681,
+            "z": -613.4307992173941
+          },
+          "scene": {
+            "x": 1765.7968732913826,
+            "y": -711.1005954475681,
+            "z": -613.4307992173941
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "4cf89e21",
+    "title": "Human Anatomy And Physiology Lab",
+    "url": "/virtual-tour/images/scene-4cf89e21.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-4cf89e21.jpg",
+    "hotspots": [
+      {
+        "id": "hs_j9j5ni",
+        "title": "First Floor Left Corridor",
+        "targetSceneId": "3329fa93",
+        "coords": {
+          "plane": {
+            "x": -1354.1354832543423,
+            "y": -460.76532490837997,
+            "z": -1397.859938746942
+          },
+          "scene": {
+            "x": -1354.1354832543423,
+            "y": -460.76532490837997,
+            "z": -1397.859938746942
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "bd45021c",
+    "title": "Molecular Biochemistry Lab",
+    "url": "/virtual-tour/images/scene-bd45021c.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-bd45021c.jpg",
+    "hotspots": [
+      {
+        "id": "hs_000wfn",
+        "title": "First Floor Left Corridor",
+        "targetSceneId": "3329fa93",
+        "coords": {
+          "plane": {
+            "x": -1487.4633759940161,
+            "y": -556.724380474002,
+            "z": -1215.5289668544813
+          },
+          "scene": {
+            "x": -1487.4633759940161,
+            "y": -556.724380474002,
+            "z": -1215.5289668544813
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "bc33fced",
+    "title": "BioTechnology lab",
+    "url": "/virtual-tour/images/scene-bc33fced.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-bc33fced.jpg",
+    "hotspots": [
+      {
+        "id": "hs_m2hbxt",
+        "title": "First Floor Left Corridor",
+        "targetSceneId": "3329fa93",
+        "coords": {
+          "plane": {
+            "x": 1321.5099934856719,
+            "y": -1334.7222456127593,
+            "z": -687.1156119489157
+          },
+          "scene": {
+            "x": 1321.5099934856719,
+            "y": -1334.7222456127593,
+            "z": -687.1156119489157
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "041754d9",
+    "title": "Second Floor Upstairs",
+    "url": "/virtual-tour/images/scene-041754d9.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-041754d9.jpg",
+    "hotspots": [
+      {
+        "id": "hs_ko04yi",
+        "title": "First Floor Left Corridor",
+        "targetSceneId": "3329fa93",
+        "coords": {
+          "plane": {
+            "x": 235.49400043207262,
+            "y": -537.5872872471288,
+            "z": 1911.9473016667516
+          },
+          "scene": {
+            "x": 235.49400043207262,
+            "y": -537.5872872471288,
+            "z": 1911.9473016667516
+          }
+        }
+      },
+      {
+        "id": "hs_5eujm2",
+        "title": "Second Floor Left Corridor",
+        "targetSceneId": "8390878e",
+        "coords": {
+          "plane": {
+            "x": 822.3639512835716,
+            "y": -272.55558978442895,
+            "z": 1802.6178136550557
+          },
+          "scene": {
+            "x": 822.3639512835716,
+            "y": -272.55558978442895,
+            "z": 1802.6178136550557
+          }
+        }
+      },
+      {
+        "id": "hs_9dupjw",
+        "title": "Second Floor Right Corridor",
+        "targetSceneId": "501f34d5",
+        "coords": {
+          "plane": {
+            "x": 159.74652176046132,
+            "y": -429.5326726434826,
+            "z": -1946.7877983789556
+          },
+          "scene": {
+            "x": 159.74652176046132,
+            "y": -429.5326726434826,
+            "z": -1946.7877983789556
+          }
+        }
+      },
+      {
+        "id": "hs_ltzevo",
+        "title": "Ground Floor",
+        "targetSceneId": "3747fa36",
+        "coords": {
+          "plane": {
+            "x": -344.08204899308765,
+            "y": -642.306580434161,
+            "z": -1862.5385365923823
+          },
+          "scene": {
+            "x": -344.08204899308765,
+            "y": -642.306580434161,
+            "z": -1862.5385365923823
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "8390878e",
+    "title": "Second Floor Left Corridor",
+    "url": "/virtual-tour/images/scene-8390878e.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-8390878e.jpg",
+    "hotspots": [
+      {
+        "id": "hs_5sjigk",
+        "title": "First Floor Left Corridor",
+        "targetSceneId": "041754d9",
+        "coords": {
+          "plane": {
+            "x": -962.2241983658811,
+            "y": -458.09811680751295,
+            "z": -1692.4156426411769
+          },
+          "scene": {
+            "x": -962.2241983658811,
+            "y": -458.09811680751295,
+            "z": -1692.4156426411769
+          }
+        }
+      },
+      {
+        "id": "hs_5z27z5",
+        "title": "Chemistry Lab Entry",
+        "targetSceneId": "ab5b007b",
+        "coords": {
+          "plane": {
+            "x": 1176.6074373300517,
+            "y": -1350.5344691966282,
+            "z": -889.748046320637
+          },
+          "scene": {
+            "x": 1176.6074373300517,
+            "y": -1350.5344691966282,
+            "z": -889.748046320637
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ab5b007b",
+    "title": "Chemistry Lab Entry",
+    "url": "/virtual-tour/images/scene-ab5b007b.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-ab5b007b.jpg",
+    "hotspots": [
+      {
+        "id": "hs_s6l9or",
+        "title": "Second Floor Left Corridor",
+        "targetSceneId": "8390878e",
+        "coords": {
+          "plane": {
+            "x": 1169.1324595664396,
+            "y": -666.811604994126,
+            "z": -1479.3551214746528
+          },
+          "scene": {
+            "x": 1169.1324595664396,
+            "y": -666.811604994126,
+            "z": -1479.3551214746528
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "501f34d5",
+    "title": "Second Floor right Corridor",
+    "url": "/virtual-tour/images/scene-501f34d5.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-501f34d5.jpg",
+    "hotspots": [
+      {
+        "id": "hs_t93h58",
+        "title": "Second Floor",
+        "targetSceneId": "041754d9",
+        "coords": {
+          "plane": {
+            "x": 472.2024652906042,
+            "y": -406.121615224086,
+            "z": 1900.5499376289106
+          },
+          "scene": {
+            "x": 472.2024652906042,
+            "y": -406.121615224086,
+            "z": 1900.5499376289106
+          }
+        }
+      },
+      {
+        "id": "hs_pqln8f",
+        "title": "Anesthesia / OT Lab",
+        "targetSceneId": "e8cb0198",
+        "coords": {
+          "plane": {
+            "x": -1542.7533499646852,
+            "y": -1246.3020786424963,
+            "z": 258.1535007396469
+          },
+          "scene": {
+            "x": -1542.7533499646852,
+            "y": -1246.3020786424963,
+            "z": 258.1535007396469
+          }
+        }
+      },
+      {
+        "id": "hs_dwyqix",
+        "title": "Physiotherapy Lab (09)",
+        "targetSceneId": "3214808a",
+        "coords": {
+          "plane": {
+            "x": 1539.77819071121,
+            "y": -1245.4193348543595,
+            "z": -279.30951251441184
+          },
+          "scene": {
+            "x": 1539.77819071121,
+            "y": -1245.4193348543595,
+            "z": -279.30951251441184
+          }
+        }
+      },
+      {
+        "id": "hs_cs5qk6",
+        "title": "Second Floor Right Corridor",
+        "targetSceneId": "3f8296e0",
+        "coords": {
+          "plane": {
+            "x": -729.9374029376156,
+            "y": -798.3329215354935,
+            "z": -1682.2175644622466
+          },
+          "scene": {
+            "x": -729.9374029376156,
+            "y": -798.3329215354935,
+            "z": -1682.2175644622466
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "e8cb0198",
+    "title": "Anesthesia / OT Lab",
+    "url": "/virtual-tour/images/scene-e8cb0198.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-e8cb0198.jpg",
+    "hotspots": [
+      {
+        "id": "hs_b5pbft",
+        "title": "Second Floor Right Corridor",
+        "targetSceneId": "501f34d5",
+        "coords": {
+          "plane": {
+            "x": -1187.23611977637,
+            "y": -384.053918919926,
+            "z": 1563.0012742351157
+          },
+          "scene": {
+            "x": -1187.23611977637,
+            "y": -384.053918919926,
+            "z": 1563.0012742351157
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "3214808a",
+    "title": "Physiotherapy Lab (09)",
+    "url": "/virtual-tour/images/scene-3214808a.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-3214808a.jpg",
+    "hotspots": [
+      {
+        "id": "hs_6lbs9i",
+        "title": "Second Floor Right Corridor",
+        "targetSceneId": "501f34d5",
+        "coords": {
+          "plane": {
+            "x": 1864.225100400967,
+            "y": -487.8478182444021,
+            "z": -535.4150551387036
+          },
+          "scene": {
+            "x": 1864.225100400967,
+            "y": -487.8478182444021,
+            "z": -535.4150551387036
+          }
+        }
+      },
+      {
+        "id": "hs_hsd1sa",
+        "title": "Physiotherapy Lab (10)",
+        "targetSceneId": "bd111f69",
+        "coords": {
+          "plane": {
+            "x": 1929.9425258050435,
+            "y": -523.2681579449714,
+            "z": -38.88806976599271
+          },
+          "scene": {
+            "x": 1929.9425258050435,
+            "y": -523.2681579449714,
+            "z": -38.88806976599271
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "3f8296e0",
+    "title": "Second Floor Right Corridor",
+    "url": "/virtual-tour/images/scene-3f8296e0.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-3f8296e0.jpg",
+    "hotspots": [
+      {
+        "id": "hs_549lxo",
+        "title": "Second Floor Corridor",
+        "targetSceneId": "501f34d5",
+        "coords": {
+          "plane": {
+            "x": 1905.6260007231242,
+            "y": -499.9674335508817,
+            "z": -344.4156075971835
+          },
+          "scene": {
+            "x": 1905.6260007231242,
+            "y": -499.9674335508817,
+            "z": -344.4156075971835
+          }
+        }
+      },
+      {
+        "id": "hs_oamyhi",
+        "title": "Physiotherapy OPD Lab",
+        "targetSceneId": "bd111f69",
+        "coords": {
+          "plane": {
+            "x": -1282.2352079895632,
+            "y": -1148.1035434343257,
+            "z": -1018.6908878288384
+          },
+          "scene": {
+            "x": -1282.2352079895632,
+            "y": -1148.1035434343257,
+            "z": -1018.6908878288384
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "bd111f69",
+    "title": "Physiotherapy OPD Lab",
+    "url": "/virtual-tour/images/scene-bd111f69.jpg",
+    "previewUrl": "/virtual-tour/images/scene-thumb-bd111f69.jpg",
+    "hotspots": [
+      {
+        "id": "hs_58f4r2",
+        "title": "Second Floor Right Corridor",
+        "targetSceneId": "3f8296e0",
+        "coords": {
+          "plane": {
+            "x": 1769.835059301344,
+            "y": -710.9021789177806,
+            "z": -601.9152389479432
+          },
+          "scene": {
+            "x": 1769.835059301344,
+            "y": -710.9021789177806,
+            "z": -601.9152389479432
+          }
+        }
+      },
+      {
+        "id": "hs_yr93zx",
+        "title": "Physiotherapy Lab (09)",
+        "targetSceneId": "3214808a",
+        "coords": {
+          "plane": {
+            "x": -1851.6437890951656,
+            "y": -432.30219616780875,
+            "z": -620.1049020075454
+          },
+          "scene": {
+            "x": -1851.6437890951656,
+            "y": -432.30219616780875,
+            "z": -620.1049020075454
+          }
+        }
       }
     ]
   }
