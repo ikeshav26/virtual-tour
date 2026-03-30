@@ -176,7 +176,7 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
 
   return (
     <div className={`relative ${className} vt-root`}>
-      {true && (
+      {/* {true && (
         <button
           className="absolute top-6 right-6 z-50 bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-xl shadow-lg border border-white/20 font-semibold"
           onClick={() => {
@@ -186,7 +186,7 @@ export const VirtualTour: React.FC<VirtualTourProps> = ({
         >
           {isEditMode ? "Disable Edit Mode" : "Enable Edit Mode"}
         </button>
-      )}
+      )} */}
 
       <div className="absolute bottom-6 left-6 z-50 text-white px-4 py-2 font-[oswald] text-3xl">
         Managed By Keshav
